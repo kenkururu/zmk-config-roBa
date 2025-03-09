@@ -68,12 +68,12 @@
         default_layer {
             bindings = <
 &kp Q             &kp W  &kp E  &kp R               &kp T                                             &kp T        &kp R  &kp U  &kp S            &kp W
-&kp A             &kp S  &kp D  &kp F               &kp G    &msc SCRL_DOWN          &kp LEFT_WIN     &kp K        &kp O  &kp A  &kp I            &kp E
+&kp A             &kp S  &kp D  &kp F               &kp G    &kt LEFT_WIN            &kp LEFT_WIN     &kp K        &kp O  &kp A  &kp I            &kp E
 &mt LEFT_SHIFT E  &kp X  &kp C  &kp V               &kp B    &kp COLON               &lt 2 SPACE      &lt 5 H      &kp N  &kp M  &mt RSHFT MINUS  &kp Y
 &kp H             &kp E  &kp D  &lt_to_layer_0 6 D  &lt 2 D  &lt_to_layer_0 3 D      &lt 3 BACKSPACE  &lt 1 ENTER                                 &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>, <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp HOME END>, <&inc_dec_kp 0 0>;
         };
 
         FUNCTION {
@@ -99,7 +99,7 @@
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp EQUAL   &kp N7        &kp N8        &kp N9        &kp MINUS
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp SLASH   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp ASTRK   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &bt BT_CLR                                            &kp PERIOD
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &bt BT_NXT                                            &kp PERIOD
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
