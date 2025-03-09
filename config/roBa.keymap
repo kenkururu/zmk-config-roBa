@@ -73,7 +73,7 @@
 &kp H             &kp E  &kp D  &lt_to_layer_0 6 D  &lt 2 D  &lt_to_layer_0 3 D      &lt 3 BACKSPACE  &lt 1 ENTER                                 &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp HOME END>, <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp G J>, <&inc_dec_kp C E>;
         };
 
         FUNCTION {
