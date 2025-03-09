@@ -96,10 +96,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp EQUAL   &kp N7        &kp N8        &kp N9        &kp MINUS
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp SLASH   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp ASTRK   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &bt BT_CLR                                            &kp PERIOD
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -116,10 +116,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                            &kp F12  &kp F7  &kp F8  &kp F9  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 2  &kp F11  &kp F4  &kp F5  &kp F6  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 1  &kp F10  &kp F1  &kp F2  &kp F3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0  &kp F10                          &bt BT_SEL 4
             >;
         };
 
