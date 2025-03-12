@@ -78,9 +78,9 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                       &kp RA(ENTER)  &kp J  &kp COMMA  &kp Q  &kp P
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN             &kp G          &kp F  &kp D      &kp L  &kp PERIOD
-&trans  &trans  &trans  &trans  &trans  &trans      &kp C_SHUFFLE            &kp B          &kp V  &kp C      &kp X  &kp Z
+&trans  &trans  &trans  &trans  &trans                                       &kp RA(ENTER)  &kp F  &kp COMMA  &kp Q  &kp P
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN             &kp G          &kp J  &kp D      &kp L  &kp PERIOD
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT           &kp B          &kp V  &kp C      &kp X  &kp Z
 &trans  &trans  &trans  &trans  &trans  &trans      &kp RS(INTERNATIONAL_1)  &none                                   &trans
             >;
         };
@@ -107,7 +107,7 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                            &trans        &trans        &trans        &to 5         &mkp MB2
+&trans  &trans  &trans  &trans  &trans                            &trans        &trans        &trans        &mo 5         &mkp MB2
 &trans  &trans  &trans  &trans  &trans  &trans      &none         &none         &none         &mkp MB1      &none         &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans                                                  &bt BT_CLR
@@ -125,10 +125,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &kp N7        &kp N8        &kp N9        &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &kp PERIOD
+&trans  &trans        &trans        &trans        &trans                              &bt BT_SEL 0         &kp N7        &kp N8        &kp N9        &bt BT_SEL 4
+&trans  &trans        &trans        &trans        &trans  &trans      &trans          &trans               &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &kp LANGUAGE_2  &trans               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
+&trans  &trans        &trans        &trans        &trans  &trans      &trans          &kp INTERNATIONAL_2                                            &kp PERIOD
             >;
         };
 
