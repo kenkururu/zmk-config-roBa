@@ -96,7 +96,7 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp F12  &kp F7  &kp F8  &kp F9  &kp C_AL_SPREADSHEET
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp F12  &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LEFT_ALT
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp RCTRL
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                           &trans
@@ -107,26 +107,26 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                            &trans        &trans        &trans        &mo 5         &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans      &none         &none         &none         &mkp MB1      &none         &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans                                                  &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans                     &trans  &trans  &trans    &mo 5  &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &none   &mkp MB1  &none  &none
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &none   &none     &none  &none
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                            &none
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                            &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans                                                  &bt BT_CLR
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                              &bt BT_SEL 0         &kp N7        &kp N8        &kp N9        &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans          &trans               &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
+&trans  &trans        &trans        &trans        &trans                              &none                &kp N7        &kp N8        &kp N9        &none
+&trans  &trans        &trans        &trans        &trans  &trans      &kp LANG1       &trans               &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &kp LANGUAGE_2  &trans               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
 &trans  &trans        &trans        &trans        &trans  &trans      &trans          &kp INTERNATIONAL_2                                            &kp PERIOD
             >;
