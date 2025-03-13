@@ -107,9 +107,9 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &trans                       &trans    &trans    &mkp MB1  &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                        &none     &mo 5     &none     &none
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                        &mkp MB1  &mkp MB2  &mo 5     &none
+&trans  &trans  &trans  &trans  &trans                     &trans                       &trans    &trans    &none     &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                        &none     &mo 5     &mkp MB1  &none
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                        &mkp MB1  &mkp MB2  &none     &mo 5
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &lt_to_layer_0 6 INT_HENKAN                                &none
             >;
         };
