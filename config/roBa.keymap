@@ -46,7 +46,7 @@
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
     };
@@ -73,24 +73,24 @@
     keymap {
         compatible = "zmk,keymap";
 
+        FUNCTION {
+            bindings = <
+&kp P         &kp Q      &kp COMMA       &kp F   &kp LA(ENTER)                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp PERIOD    &kp L      &kp D           &kp J   &kp G          &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp Z         &kp X      &kp C           &kp V   &kp B          &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &trans  &trans         &trans      &trans   &trans                          &kp F12
+            >;
+        };
+
         default_layer {
             bindings = <
 &kp W         &kp S      &kp U           &kp R                   &kp T                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp E         &kp I      &kp A           &kp O                   &kp K        &kp TAB                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &kp Y         &kp Y      &kp M           &kp N                   &kp H        &kp LEFT_ALT                    &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 1 ENTER  &lt_to_layer_0 3 BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 0 ENTER  &lt_to_layer_0 3 BACKSPACE      &kp BACKSPACE  &lt 0 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
-        };
-
-        FUNCTION {
-            bindings = <
-&kp P       &kp Q   &kp COMMA  &kp F   &kp LA(ENTER)                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp PERIOD  &kp L   &kp D      &kp J   &kp G          &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp Z       &kp X   &kp C      &kp V   &kp B          &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans      &trans  &trans     &trans  &trans         &trans      &trans   &trans                          &kp F12
-            >;
         };
 
         NUM {
