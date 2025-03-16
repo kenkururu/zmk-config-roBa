@@ -60,7 +60,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+
+        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
@@ -74,13 +75,13 @@ scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp A                              &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp LEFT_ALT                       &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp W         &kp S      &kp U           &kp R                   &kp T                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp E         &kp I      &kp A           &kp O                   &kp K        &kp TAB                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp Y         &kp Y      &kp M           &kp N                   &kp H        &kp LEFT_ALT                    &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 1 ENTER  &lt_to_layer_0 3 BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp LA(TAB) TAB>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
