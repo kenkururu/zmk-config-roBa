@@ -84,7 +84,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        default_layer {
+        FUNCTION {
             bindings = <
 &kp W         &kp S      &kp U           &kp R                   &kp T                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp E         &kp I      &kp A           &kp O                   &kp K        &kp TAB                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
