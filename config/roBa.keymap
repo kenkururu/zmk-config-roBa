@@ -80,7 +80,7 @@
             bindings = <
 &kp W         &kp S      &kp U           &kp R                   &kp T                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp E         &kp I      &kp A           &kp O                   &kp K        &kp TAB                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp Y         &kp Y      &kp M           &kp N                   &kp H        &kp LEFT_ALT                    &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Y         &kp MINUS  &kp M           &kp N                   &kp H        &kp LEFT_ALT                    &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 1 ENTER  &lt_to_layer_0 3 BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
