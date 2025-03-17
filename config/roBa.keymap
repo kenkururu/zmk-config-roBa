@@ -65,7 +65,7 @@
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings =  <&msc MOVE_Y(20)>, <&msc MOVE_Y(-20)>;
+            bindings = <&msc MOVE_Y(20)>, <&msc MOVE_Y(-20)>;
 
             // 追加: スクロールのタップ時間を設定 (20ms)
 
@@ -89,10 +89,10 @@
 
         FUNCTION {
             bindings = <
-&kp W         &kp S      &kp U           &kp R                   &kp T                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp E         &kp I      &kp A           &kp O                   &kp K        &kp TAB                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp Y         &kp Y      &kp M           &kp N                   &kp H        &kp LEFT_ALT                    &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 1 ENTER  &lt_to_layer_0 3 BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp P         &kp Q      &kp COMMA       &kp F                   &kp LA(ENTER)                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp PERIOD    &kp L      &kp D           &kp J                   &kp G          &kp TAB                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp Z         &kp X      &kp C           &kp V                   &kp B          &kp LEFT_ALT                    &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 1 ENTER    &lt_to_layer_0 3 BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
