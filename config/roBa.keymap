@@ -65,7 +65,8 @@
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-           bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             // 追加: スクロールのタップ時間を設定 (20ms)
 
             tap-ms = <20>;
@@ -77,10 +78,10 @@
 
         default_layer {
             bindings = <
-&kp W         &kp S      &kp U           &kp R                   &kp T                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp E         &kp I      &kp A           &kp O                   &kp K        &kp TAB                         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp Y         &kp MINUS  &kp M           &kp N                   &kp H        &kp LEFT_ALT                    &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 1 ENTER  &lt_to_layer_0 3 BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp W         &kp S      &kp U           &kp R                   &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp E         &kp I      &kp A           &kp O                   &kp K        &kp TAB            &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp Y         &kp MINUS  &kp M           &kp N                   &lt 3 H      &kp LEFT_ALT       &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 1 ENTER  &kp BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -108,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&bt BT_SEL 0    &bt BT_SEL 1            &bt BT_SEL 2    &bt BT_SEL 3             &bt BT_SEL 4                      &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR      &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END       &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                  &trans          &trans                   &trans        &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
