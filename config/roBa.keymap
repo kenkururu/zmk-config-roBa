@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                       &kp RA(ENTER)  &kp F  &kp COMMA  &kp Q  &kp P
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN             &kp G          &kp J  &kp D      &kp L  &kp PERIOD
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT           &kp B          &kp V  &kp C      &kp X  &kp Z
-&trans  &trans  &trans  &trans  &trans  &trans      &kp RS(INTERNATIONAL_1)  &none                                   &trans
+&trans  &trans  &trans  &trans  &trans                                &kp RA(ENTER)  &kp F  &kp COMMA  &kp Q  &kp P
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN      &kp G          &kp J  &kp D      &kp L  &kp PERIOD
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT    &kp B          &kp V  &kp C      &kp X  &kp Z
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_BRACKET  &none                                   &trans
             >;
         };
 
@@ -125,10 +125,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                              &none                &kp N7        &kp N8        &kp N9        &none
-&trans  &trans        &trans        &trans        &trans  &trans      &kp LANG1       &trans               &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &kp LANGUAGE_2  &trans               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
-&trans  &trans        &trans        &trans        &trans  &trans      &trans          &kp INTERNATIONAL_2                                            &kp PERIOD
+&trans  &trans        &trans        &trans        &trans                              &none           &kp N7        &kp N8        &kp N9        &none
+&trans  &trans        &trans        &trans        &trans  &trans      &none           &trans          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &kp LANGUAGE_2  &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
+&trans  &trans        &trans        &trans        &trans  &trans      &trans          &kp LANGUAGE_1                                            &kp PERIOD
             >;
         };
 
