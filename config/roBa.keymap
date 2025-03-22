@@ -80,7 +80,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                &kp RA(ENTER)  &kp F  &kp COMMA  &kp Q  &kp P
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN      &kp G          &kp J  &kp D      &kp L  &kp PERIOD
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT    &kp B          &kp V  &kp C      &kp X  &kp Z
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT    &kp B          &kp C  &kp V      &kp X  &kp Z
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_BRACKET  &none                                   &trans
             >;
         };
