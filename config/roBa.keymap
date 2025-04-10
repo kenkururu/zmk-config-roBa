@@ -77,7 +77,7 @@
             label = "key_TAP_TO_0";
             bindings = <&kp>, <&to_layer_0>;
 
-            #binding-cells = <2>;
+            #binding-cells = <1>;
             tapping-term-ms = <200>;
         };
     };
