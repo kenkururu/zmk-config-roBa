@@ -130,10 +130,12 @@
         SCROLL {
             bindings = <
 &kp PRINTSCREEN   &kp TAB         &kp UP_ARROW             &kp LEFT_ALT             &kp SEMI                                     &trans  &trans  &trans  &trans  &trans
-&kp LEFT_WIN      &kp LEFT_ARROW  &mt RCTRL DOWN_ARROW     &kp RIGHT_ARROW          &kp SINGLE_QUOTE  &none              &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(NUMBER_1)  &kp LS(SLASH)   &kp LG(INTERNATIONAL_3)  &kp LS(INTERNATIONAL_1)  &none             &none              &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_WIN      &kp LEFT_ARROW  &mt RCTRL DOWN_ARROW     &kp RIGHT_ARROW          &kp SINGLE_QUOTE  &kp LEFT_ALT       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(NUMBER_1)  &kp LS(SLASH)   &kp LG(INTERNATIONAL_3)  &kp LS(INTERNATIONAL_1)  &kp LEFT_ALT      &none              &trans  &trans  &trans  &trans  &trans  &trans
 &kp CAPS          &none           &kp HOME                 &kp END                  &kp PAGE_UP       &kp PAGE_DOWN      &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp TAB LEFT_ARROW>;
         };
 
         layer_6 {
