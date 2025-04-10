@@ -79,7 +79,7 @@
         default_layer {
             bindings = <
 &kp W         &kp S      &kp U           &kp R                   &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp E         &kp I      &kp A           &kp O                   &kp K        &mo 3              &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp E         &kp I      &kp A           &kp O                   &kp K        &to 3              &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &kp Y         &kp MINUS  &kp M           &kp N                   &lt 4 H      &lt 5 DEL          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 1 ENTER  &kp BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
@@ -109,13 +109,13 @@
 
         ARROW {
             bindings = <
-&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR        &none         &none         &none         &none         &none      &trans  &trans  &trans  &trans  &trans  &trans
-&none             &none         &none         &none         &none         &none      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_BRACKET  &none         &none         &none         &none         &none      &trans  &trans                          &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR    &none         &none         &none         &none         &none             &trans  &trans  &trans  &trans  &trans  &trans
+&none         &none         &none         &none         &none         &kp LEFT_ALT      &trans  &trans  &trans  &trans  &trans  &trans
+&none         &none         &none         &none         &none         &to 0             &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp TAB LEFT_ARROW>;
         };
 
         MOUSE {
@@ -130,12 +130,12 @@
         SCROLL {
             bindings = <
 &kp PRINTSCREEN   &kp TAB         &kp UP_ARROW             &kp LEFT_ALT             &kp SEMI                                     &trans  &trans  &trans  &trans  &trans
-&kp LEFT_WIN      &kp LEFT_ARROW  &mt RCTRL DOWN_ARROW     &kp RIGHT_ARROW          &kp SINGLE_QUOTE  &kp LEFT_ALT       &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(NUMBER_1)  &kp LS(SLASH)   &kp LG(INTERNATIONAL_3)  &kp LS(INTERNATIONAL_1)  &kp LEFT_ALT      &none              &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_WIN      &kp LEFT_ARROW  &mt RCTRL DOWN_ARROW     &kp RIGHT_ARROW          &kp SINGLE_QUOTE  &none              &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(NUMBER_1)  &kp LS(SLASH)   &kp LG(INTERNATIONAL_3)  &kp LS(INTERNATIONAL_1)  &none             &none              &trans  &trans  &trans  &trans  &trans  &trans
 &kp CAPS          &none           &kp HOME                 &kp END                  &kp PAGE_UP       &kp PAGE_DOWN      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp TAB LEFT_ARROW>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_6 {
