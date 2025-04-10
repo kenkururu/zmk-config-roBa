@@ -79,7 +79,7 @@
         default_layer {
             bindings = <
 &kp W         &kp S      &kp U           &kp R                   &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp E         &kp I      &kp A           &kp O                   &kp K        &to 3              &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp E         &kp I      &kp A           &kp O                   &kp K        &tog 3             &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &kp Y         &kp MINUS  &kp M           &kp N                   &lt 4 H      &lt 5 DEL          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_WIN  &kp RCTRL  &kp LEFT_SHIFT  &lt_to_layer_0 2 SPACE  &lt 1 ENTER  &kp BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR    &none         &none         &none         &none         &none             &trans  &trans  &trans  &trans  &trans  &trans
-&none         &none         &none         &none         &none         &kp LEFT_ALT      &trans  &trans  &trans  &trans  &trans  &trans
-&none         &none         &none         &none         &none         &to 0             &trans  &trans                          &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                    &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR    &none         &none         &none         &none         &none                     &trans  &trans  &trans  &trans  &trans  &trans
+&none         &none         &none         &none         &none         &to_layer_0 LEFT_ALT      &trans  &trans  &trans  &trans  &trans  &trans
+&none         &none         &none         &none         &none         &tog 0                    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp TAB LEFT_ARROW>;
