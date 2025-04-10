@@ -71,14 +71,14 @@
 
             tap-ms = <20>;
         };
-　　　　hold_to_layer1: hold_to_layer1 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TO_LAYER1";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            flavor = "hold-preferred";
+ scroll_time: behavior_sensor_rotate_key_wheel_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
 
-            bindings = <&to 1>, <&trans>;
+            // 追加: スクロールのタップ時間を設定 (5ms)
+
+            tap-ms = <5>;
         };
     };
 
