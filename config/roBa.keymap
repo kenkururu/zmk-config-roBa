@@ -71,6 +71,13 @@
 
             tap-ms = <20>;
         };
+        hold_layer_0: hold_layer_0 {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            label = "hold_LAYER_0";
+        };
     };
 
     keymap {
