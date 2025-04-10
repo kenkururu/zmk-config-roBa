@@ -115,7 +115,7 @@
 &none         &none         &none         &none         &to_layer_0 LEFT_ALT  &kp LEFT_ALT      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_time>;
+            sensor-bindings = <&inc_dec_kp TAB LEFT_ARROW>;
         };
 
         MOUSE {
