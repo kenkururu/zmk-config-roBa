@@ -71,10 +71,11 @@
 
             tap-ms = <20>;
         };
- scroll_time: behavior_sensor_rotate_key_wheel_up_down {
+
+        scroll_time: behavior_sensor_rotate_key_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <4>;
-            bindings = <&kp tab>, <&to_layer_0>,<&kp tab>,<&to_layer_0>;
+            bindings = <&kp tab>, <&to_layer_0>, <&kp tab>, <&to_layer_0>;
 
             // 追加: スクロールのタップ時間を設定 (5ms)
 
@@ -124,7 +125,7 @@
 &none         &none         &none         &none         &to_layer_0 LEFT_ALT  &kp LEFT_ALT      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp TAB LEFT_ARROW>;
+            sensor-bindings = <&scroll_time>;
         };
 
         MOUSE {
