@@ -77,8 +77,7 @@
             label = "LAYER_hold_TO_0";
             bindings = <&mt>, <&to_layer_0>;
 
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            #binding-cells = <1>;
         };
     };
 
