@@ -73,8 +73,8 @@
         };
  scroll_time: behavior_sensor_rotate_key_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <2>;
-            bindings = <&kp>, <&kp>;
+            #sensor-binding-cells = <4>;
+            bindings = <&kp tab>, <&to_layer_0>,<&kp tab>,<&to_layer_0>;
 
             // 追加: スクロールのタップ時間を設定 (5ms)
 
