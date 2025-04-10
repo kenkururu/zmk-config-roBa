@@ -71,9 +71,9 @@
 
             tap-ms = <20>;
         };
-        lt_to_layer_0: lt_to_layer_0 {
+        hold_to_layer_0: hold_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
+            label = "key_TAP_TO_0";
             bindings = <&kp>, <&to_layer_0>;
 
             #binding-cells = <2>;
