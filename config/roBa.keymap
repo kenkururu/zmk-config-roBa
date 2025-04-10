@@ -71,6 +71,7 @@
 
             tap-ms = <20>;
         };
+
         mt_to_layer_0: mt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_hold_TO_0";
@@ -117,10 +118,10 @@
 
         ARROW {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR    &none         &none         &none         &none         &none             &trans  &trans  &trans  &trans  &trans  &trans
-&none         &none         &none         &none         &none         &to 0             &trans  &trans  &trans  &trans  &trans  &trans
-&none         &none         &none         &none         &none         &kp LEFT_ALT      &trans  &trans                          &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                                &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR    &none         &none         &none         &none                             &none             &trans  &trans  &trans  &trans  &trans  &trans
+&none         &none         &none         &none         &none                             &to 0             &trans  &trans  &trans  &trans  &trans  &trans
+&none         &none         &none         &none         &mt_to_layer_0 LEFT_ALT LEFT_WIN  &kp LEFT_ALT      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp TAB LEFT_ARROW>;
