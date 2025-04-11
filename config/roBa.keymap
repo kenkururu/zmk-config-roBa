@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                    &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR    &none         &none         &none         &none                 &none             &trans  &trans  &trans  &trans  &trans  &trans
-&none         &none         &none         &none         &none                 &to 0             &trans  &trans  &trans  &trans  &trans  &trans
-&none         &none         &none         &none         &to_layer_0 LEFT_ALT  &kp LEFT_ALT      &trans  &trans                          &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR    &none         &none         &none         &none         &none             &trans  &trans  &trans  &trans  &trans  &trans
+&none         &none         &none         &none         &none         &to 0             &trans  &trans  &trans  &trans  &trans  &trans
+&none         &none         &none         &none         &none         &kp LEFT_ALT      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp TAB LEFT_ARROW>;
