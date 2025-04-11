@@ -71,6 +71,16 @@
 
             tap-ms = <20>;
         };
+
+scroll_R_L: behavior_sensor_rotate_mouse_wheel_R_L {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
+
+            // 追加: スクロールのタップ時間を設定 (20ms)
+
+            tap-ms = <20>;
+        };
     };
 
     keymap {
