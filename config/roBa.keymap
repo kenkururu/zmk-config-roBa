@@ -18,8 +18,8 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            bindings = <&to 3>;
+            key-positions = <39 27>;
         };
 
         shift_tab {
