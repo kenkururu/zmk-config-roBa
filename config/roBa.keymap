@@ -6,6 +6,27 @@
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
+// OS設定を日本語キーボードのまま使用するための変換定義
+#define JP_DQUOTE       AT                // "
+#define JP_AMPERSAND    CARET             // &
+#define JP_QUOTE        AMPERSAND         // '
+#define JP_EQUAL        UNDER             // =
+#define JP_CARET        EQUAL             // ^
+#define JP_YEN          0x89              // ¥
+#define JP_PLUS         COLON             // +
+#define JP_TILDE        PLUS              // ~
+#define JP_PIPE         LS(0x89)          // |
+#define JP_AT           LEFT_BRACKET      // @
+#define JP_COLON        SINGLE_QUOTE      // :
+#define JP_ASTERISK     DOUBLE_QUOTES     // *
+#define JP_BACKQUOTE    LEFT_BRACE        // `
+#define JP_UNDERSCORE   LS(0x87)          // _
+#define JP_LBRACKET     RIGHT_BRACKET     // [
+#define JP_RBRACKET     BACKSLASH         // ]
+#define JP_LPAREN       ASTERISK          // (
+#define JP_RPAREN       LEFT_PARENTHESIS  // )
+#define JP_LBRACE       RIGHT_BRACE       // {
+#define JP_RBRACE       PIPE              // }
 
 &mt {
     flavor = "balanced";
@@ -81,7 +102,7 @@
 &trans  &trans  &trans  &trans  &trans                                &kp RA(ENTER)  &kp F  &kp COMMA  &kp Q  &kp P
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN      &kp G          &kp J  &kp D      &kp L  &kp PERIOD
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT    &kp B          &kp C  &kp V      &kp X  &kp Z
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_BRACKET  &none                                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_AT  &none                                   &trans
             >;
         };
 
@@ -89,7 +110,7 @@
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                &kp SEMI          &kp LEFT_ALT      &kp UP_ARROW          &kp TAB                  &kp PSCRN
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp HOME     &kp SINGLE_QUOTE  &kp LEFT_ARROW    &mt RCTRL DOWN_ARROW  &kp RIGHT_ARROW          &kp LEFT_WIN
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp END      &none             &kp LS(NUMBER_1)  &kp LS(SLASH)         &kp LG(INTERNATIONAL_3)  &kp LS(INTERNATIONAL_1)
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp END      &none             &kp LS(NUMBER_1)  &kp LS(SLASH)         &kp JP_YEN  &kp JP_UNDERSCORE
 &trans                      &trans           &trans           &trans           &trans        &trans                       &kp PAGE_UP  &kp PAGE_DOWN                                                                      &kp PIPE
             >;
         };
@@ -125,9 +146,9 @@
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                              &kp LS(MINUS)    &kp N7        &kp N8        &kp N9        &kp MINUS
+&trans  &trans        &trans        &trans        &trans                              &kp JP_EQUAL    &kp N7        &kp N8        &kp N9        &kp MINUS
 &trans  &trans        &trans        &trans        &trans  &trans      &none           &kp SLASH        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &kp LANGUAGE_2  &kp KP_MULTIPLY  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &kp LANGUAGE_2  &kp JP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
 &trans  &trans        &trans        &trans        &trans  &trans      &trans          &kp LANGUAGE_1                                             &kp PERIOD
             >;
         };
