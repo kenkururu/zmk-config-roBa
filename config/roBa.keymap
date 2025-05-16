@@ -141,7 +141,7 @@
 &trans  &trans  &trans  &trans  &trans                     &trans                       &trans    &trans    &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &none                        &mkp MB1  &mkp MB2  &none  &mo 5
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &none                        &mkp MB1  &mkp MB2  &none  &mo 5
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &lt_to_layer_0 6 INT_HENKAN                             &none
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &lt_to_layer_0 0 INT_HENKAN                             &none
             >;
         };
 
