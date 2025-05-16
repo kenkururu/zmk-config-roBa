@@ -112,7 +112,7 @@
 &trans  &trans  &trans  &trans  &trans                              &kp RA(ENTER)  &kp F  &kp COMMA  &kp Q  &kp P
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN    &kp G          &kp J  &kp D      &kp L  &kp PERIOD
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT  &kp B          &kp C  &kp V      &kp X  &kp Z
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_AT       &none                                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_AT       &none                                   &kp DEL
             >;
         };
 
@@ -127,10 +127,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp F12  &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LEFT_ALT
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp JP_EISU  &kp F10  &kp F1  &kp F2  &kp F3  &kp RCTRL
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &kp JP_KANA                           &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                            &kp F12      &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans       &kp F11      &kp F4  &kp F5  &kp F6  &kp LEFT_ALT
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp JP_EISU  &kp F10      &kp F1  &kp F2  &kp F3  &kp RCTRL
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans       &kp JP_KANA                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
