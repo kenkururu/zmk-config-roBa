@@ -48,8 +48,15 @@
         compatible = "zmk,combos";
 
         mousell {
-            bindings = <&mo 4>;
+            bindings = <&to 4>;
             key-positions = <31 30>;
+            require-prior-idle-ms = <0>;
+            layers = <4>;
+        };
+
+        reba {
+            bindings = <&to 0>;
+            key-positions = <18 19>;
         };
     };
 
