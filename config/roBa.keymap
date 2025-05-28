@@ -57,6 +57,7 @@
         reba {
             bindings = <&to 0>;
             key-positions = <18 19>;
+            layers = <4>;
         };
     };
 
