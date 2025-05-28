@@ -44,22 +44,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        mousell {
-            bindings = <&to 4>;
-            key-positions = <31 30>;
-            require-prior-idle-ms = <0>;
-            layers = <4>;
-        };
-
-        reba {
-            bindings = <&to 0>;
-            key-positions = <18 19>;
-            layers = <4>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
