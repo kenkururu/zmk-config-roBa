@@ -44,7 +44,14 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        t3 {
+            bindings = <&mo 3>;
+            key-positions = <30 31>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
