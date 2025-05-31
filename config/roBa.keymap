@@ -53,13 +53,13 @@
         };
 
         to-l0 {
-            bindings = <&to 0>;
+            bindings = <&tog 0>;
             key-positions = <18 19>;
             layers = <2>;
         };
 
         to-l2 {
-            bindings = <&to 2>;
+            bindings = <&tog 2>;
             key-positions = <18 19>;
         };
     };
