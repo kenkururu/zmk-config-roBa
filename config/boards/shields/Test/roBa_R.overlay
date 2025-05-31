@@ -1,6 +1,16 @@
 #include "roBa.dtsi"
 #include <dt-bindings/zmk/keys.h>
 
+#include <input/processors.dtsi>
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 1 1200>;
+    };
+};
+
 &default_transform {
     col-offset = <6>;
 };
