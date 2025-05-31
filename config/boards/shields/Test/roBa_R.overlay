@@ -4,25 +4,24 @@
 #include <input/processors.dtsi>
 / {
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
-        compatible = ""zmk,input-processor-temp-layer"";
+        compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
         excluded-positions = <
             18 // 
             19 // 
             21 // 
             30 // 
-            31 // 
-            33 // 
+            31 //
+            33 //
         >;
     };
 
     trackball_listener {
-        compatible = ""zmk,input-listener"";
+        compatible = "zmk,input-listener";
         device = <&trackball>;
 
-        input-processors = <&zip_temp_layer 1 500>;
+        input-processors = <&zip_temp_layer 5 10000>;
     };
-
 };
 
 &default_transform {
