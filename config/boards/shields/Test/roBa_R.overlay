@@ -87,8 +87,8 @@ arrows {
             bindings =
                 <&kp RIGHT_ARROW>,
                 <&kp LEFT_ARROW>,
-                <&kp UP_ARROW>,
-                <&kp DOWN_ARROW>;
+                <&none>,
+                <&none>;
 
             /*   optional: ball action configuration  */
             tick = <10>;
