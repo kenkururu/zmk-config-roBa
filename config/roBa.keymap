@@ -1,13 +1,11 @@
+#include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#include <input/processors.dtsi>
+&mkp_input_listener { input-processors = <&zip_temp_layer 1 500>; };
 
-&mkp_input_listener {
-    input-processors = <&zip_temp_layer 1 500>;
-};
 #define MOUSE 1
 #define SCROLL 7
 #define NUM 4
@@ -60,6 +58,11 @@
         tog-l2 {
             bindings = <&tog 2>;
             key-positions = <18 19>;
+        };
+
+        snipe {
+            bindings = <&to 3>;
+            key-positions = <33 32>;
         };
     };
 
