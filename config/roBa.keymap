@@ -47,9 +47,20 @@
     combos {
         compatible = "zmk,combos";
 
-        t3 {
+        to-l6 {
             bindings = <&mo 6>;
             key-positions = <30 31>;
+        };
+
+        to-l0 {
+            bindings = <&to 0>;
+            key-positions = <18 19>;
+            layers = <2>;
+        };
+
+        to-l2 {
+            bindings = <&to 2>;
+            key-positions = <18 19>;
         };
     };
 
@@ -91,17 +102,17 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                     &trans  &trans    &trans    &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &mo 7
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &mo 4   &mkp MB1  &mkp MB2  &none  &mo 7
-&trans  &trans  &trans  &trans  &trans  &trans      &mo 5  &mo 3                              &none
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &mo 7
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                              &none
             >;
         };
 
         mouse-to {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &mo 7
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &mo 7
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
