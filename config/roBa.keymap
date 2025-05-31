@@ -56,18 +56,6 @@
             bindings = <&tog 2>;
             key-positions = <18 19>;
         };
-
-        tog-off {
-            bindings = <&tog_off 2>;
-            key-positions = <6 7>;
-            layers = <2>;
-        };
-
-        tog0 {
-            bindings = <&tog_off 0>;
-            key-positions = <8 9>;
-            layers = <2>;
-        };
     };
 
     macros {
