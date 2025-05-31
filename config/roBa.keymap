@@ -52,7 +52,7 @@
             key-positions = <30 31>;
         };
 
-        to-l2 {
+        tog-l2 {
             bindings = <&tog 2>;
             key-positions = <18 19>;
         };
