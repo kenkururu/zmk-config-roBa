@@ -6,7 +6,7 @@
 #include <input/processors.dtsi>
 
 &mkp_input_listener {
-    input-processors = <&zip_temp_layer 1 550>;
+    input-processors = <&zip_temp_layer 1 500>;
 };
 #define MOUSE 1
 #define SCROLL 7
