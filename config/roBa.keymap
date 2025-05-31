@@ -52,15 +52,21 @@
             key-positions = <30 31>;
         };
 
-        to-l0 {
-            bindings = <&tog 0>;
-            key-positions = <18 19>;
-            layers = <2>;
-        };
-
         to-l2 {
             bindings = <&tog 2>;
             key-positions = <18 19>;
+        };
+
+        tog-off {
+            bindings = <&tog_off 2>;
+            key-positions = <6 7>;
+            layers = <2>;
+        };
+
+        tog0 {
+            bindings = <&tog_off 0>;
+            key-positions = <8 9>;
+            layers = <2>;
         };
     };
 
@@ -82,7 +88,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-tog_on: toggle_layer_on_only {
+
+        tog_on: toggle_layer_on_only {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
             display-name = "Toggle Layer On";
