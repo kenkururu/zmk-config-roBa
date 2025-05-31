@@ -48,7 +48,7 @@
         compatible = "zmk,combos";
 
         t3 {
-            bindings = <&mo 5>;
+            bindings = <&mo 6>;
             key-positions = <30 31>;
         };
     };
