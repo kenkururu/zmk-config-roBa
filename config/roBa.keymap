@@ -7,7 +7,7 @@
 &mkp_input_listener { input-processors = <&zip_temp_layer 1 500>; };
 
 #define MOUSE 1
-#define SCROLL 7
+#define SCROLL 8
 #define NUM 4
 
 // OS設定を日本語キーボードのまま使用するための変換定義
