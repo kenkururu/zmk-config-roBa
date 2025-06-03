@@ -64,12 +64,6 @@
             bindings = <&mo 3>;
             key-positions = <33 32>;
         };
-
-        tes {
-            bindings = <&kp A>;
-            key-positions = <28 29>;
-            layers = <6>;
-        };
     };
 
     macros {
@@ -113,7 +107,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                            &kp T        &kp R  &kp U  &kp S             &kp W
 &kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp LEFT_WIN     &kp K        &kp O  &kp A  &kp I             &kp E
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &lt 6 MINUS      &lt 4 SPACE  &kp N  &kp M  &mt LEFT_SHIFT H  &kp Y
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &lt 6 MINUS      &lt 4 SPACE  &kp N  &kp M  &mt LEFT_SHIFT H  &lt 7 Y
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 INT_HENKAN  &lt 6 SPACE  &lt_to_layer_0 5 INT_MUHENKAN      &lt 5 BACKSPACE  &lt 3 ENTER                                  &kp RCTRL
             >;
 
