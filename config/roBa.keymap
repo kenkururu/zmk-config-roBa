@@ -165,7 +165,7 @@
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                &kp SEMI       &kp LEFT_ALT      &kp UP_ARROW          &kp TAB          &kp PSCRN
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp HOME     &kp JP_COLON   &kp LEFT_ARROW    &mt RCTRL DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_WIN
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &none        &kp END        &kp LS(NUMBER_1)  &kp LS(SLASH)         &kp JP_YEN       &kp JP_UNDERSCORE
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &none        &kp END        &kp LS(NUMBER_1)  &kp LS(SLASH)         &kp JP_YEN       &kp LS(NUBS)
 &trans                      &trans           &trans           &trans           &trans        &trans                       &kp PAGE_UP  &kp PAGE_DOWN                                                           &kp JP_DQUOTE
             >;
         };
