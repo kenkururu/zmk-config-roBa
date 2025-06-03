@@ -105,10 +105,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                            &kp T        &kp R  &kp U  &kp S                 &kp W
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp LEFT_WIN     &kp K        &kp O  &kp A  &kp I                 &kp E
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &lt 6 H          &lt 4 SPACE  &kp N  &kp M  &mt LEFT_SHIFT MINUS  &kp Y
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 INT_HENKAN  &lt 6 SPACE  &lt_to_layer_0 5 INT_MUHENKAN      &lt 5 BACKSPACE  &lt 3 ENTER                                      &kp RCTRL
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                            &kp T        &kp R  &kp U  &kp S             &kp W
+&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp LEFT_WIN     &kp K        &kp O  &kp A  &kp I             &kp E
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &lt 6 MINUS      &lt 4 SPACE  &kp N  &kp M  &mt LEFT_SHIFT H  &kp Y
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 INT_HENKAN  &lt 6 SPACE  &lt_to_layer_0 5 INT_MUHENKAN      &lt 5 BACKSPACE  &lt 3 ENTER                                  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -117,8 +117,8 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                     &trans  &trans    &trans    &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &mo 7
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &mo 7
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &mo 8
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &mo 8
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &none                              &none
             >;
         };
@@ -126,8 +126,8 @@
         mouse-to {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &mo 7
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &mo 7
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &mo 8
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &mo 8
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
@@ -167,6 +167,15 @@
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp HOME     &kp JP_COLON   &kp LEFT_ARROW    &mt RCTRL DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_WIN
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &none        &kp END        &kp LS(NUMBER_1)  &kp LS(SLASH)         &kp JP_YEN       &kp JP_UNDERSCORE
 &trans                      &trans           &trans           &trans           &trans        &trans                       &kp PAGE_UP  &kp PAGE_DOWN                                                           &kp JP_DQUOTE
+            >;
+        };
+
+        UNIQ {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
