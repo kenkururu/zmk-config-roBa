@@ -37,7 +37,6 @@
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
 
-
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -174,10 +173,10 @@
 
         UNIQ {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                             &trans          &trans         &kp JP_LBRACKET  &kp JP_RBRACKET   &kp JP_CARET
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LESS_THAN  &kp GT          &kp JP_LBRACE  &kp JP_RBRACE    &kp PERCENT       &kp HASH
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_LPAREN  &kp JP_RPAREN   &kp JP_QUOTE   &kp JP_DQUOTE    &kp JP_AMPERSAND  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp CLCK       &kp SCROLLLOCK                                                    &trans
+&trans  &trans  &trans  &trans  &trans                                &trans          &trans         &kp JP_LBRACKET  &kp JP_RBRACKET   &kp JP_CARET
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LESS_THAN     &kp GT          &kp JP_LBRACE  &kp JP_RBRACE    &kp PERCENT       &kp HASH
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_LPAREN     &kp JP_RPAREN   &kp JP_QUOTE   &kp JP_DQUOTE    &kp JP_AMPERSAND  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LOCKING_CAPS  &kp SCROLLLOCK                                                    &trans
             >;
         };
 
