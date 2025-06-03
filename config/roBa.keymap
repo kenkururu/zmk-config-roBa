@@ -51,7 +51,7 @@
     combos {
         compatible = "zmk,combos";
 
-        to-l6 {
+        mo-l6 {
             bindings = <&mo 6>;
             key-positions = <30 31>;
         };
@@ -64,6 +64,11 @@
         snipe {
             bindings = <&mo 3>;
             key-positions = <33 32>;
+        };
+
+        tog-num {
+            bindings = <&mo 4>;
+            key-positions = <20 21>;
         };
     };
 
