@@ -172,8 +172,8 @@
 
         UNIQ {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                             &trans          &trans        &trans         &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LESS_THAN  &kp GT          &trans        &trans         &kp PERCENT       &kp HASH
+&trans  &trans  &trans  &trans  &trans                             &trans          &trans        &kp JP_LBRACKET         &kp JP_RBRACKET            &kp JP_CARET
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LESS_THAN  &kp GT          &kp JP_LBRACE        &kp JP_RBRACE         &kp PERCENT       &kp HASH
 &trans  &trans  &trans  &trans  &trans  &trans      &kp JP_LPAREN  &kp JP_RPAREN   &kp JP_QUOTE  &kp JP_DQUOTE  &kp JP_AMPERSAND  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &kp CAPS       &kp SCROLLLOCK                                                 &trans
             >;
