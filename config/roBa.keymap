@@ -62,7 +62,7 @@
         };
 
         snipe {
-            bindings = <&mo 5>;
+            bindings = <&mo 9>;
             key-positions = <33 32>;
         };
 
