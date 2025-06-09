@@ -99,7 +99,7 @@ arrows {
 change {
             layers = <7>;
             bindings =
-                <&kp TAB>,
+                <&kp RIGHT_ARROW>,
                 <&kp LEFT_ARROW>,
                 <&none>,
                 <&none>;
