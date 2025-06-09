@@ -99,9 +99,9 @@ arrows {
 change {
             layers = <7>;
             bindings =
-                <&kt LEFT_ALT>,
+                <&kp TAB>,
                 <&kp LEFT_ARROW>,
-                <&kp UP_ARROW>,
+                <&kt LEFT_ALT>,
                 <&none>;
 
             /*   optional: ball action configuration  */
