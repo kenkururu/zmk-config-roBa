@@ -167,7 +167,7 @@
 
         arrow {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                &kp SEMI       &kp LEFT_ALT      &kp UP_ARROW          &kp TAB          &kp PSCRN
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                &kp SEMI       &kp JP_QUOTE      &kp UP_ARROW          &kp TAB          &kp PSCRN
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp HOME     &kp JP_COLON   &kp LEFT_ARROW    &mt RCTRL DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_WIN
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &none        &kp END        &kp LS(NUMBER_1)  &kp LS(SLASH)         &kp JP_YEN       &kp JP_DOLLAR
 &trans                      &trans           &trans           &trans           &trans        &trans                       &kp PAGE_UP  &kp PAGE_DOWN                                                           &kp JP_UNDERSCORE
@@ -178,7 +178,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                             &trans          &kp JP_AMPERSAND  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_CARET
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LESS_THAN  &kp GT          &kp JP_LBRACE     &kp JP_RBRACE    &kp PERCENT      &kp HASH
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_LPAREN  &kp JP_RPAREN   &kp JP_QUOTE      &kp JP_DQUOTE    &kp LEFT_ALT     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_LPAREN  &kp JP_RPAREN   &kp JP_QUOTE      &kp tab    &kp LEFT_ALT     &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &none          &kp SCROLLLOCK                                                      &trans
             >;
         };
