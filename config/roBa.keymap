@@ -116,8 +116,6 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &lt 6 MINUS      &lt 4 SPACE  &kp N  &kp M  &mt LEFT_SHIFT H  &lt 7 Y
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 INT_HENKAN  &lt 6 SPACE  &lt_to_layer_0 5 INT_MUHENKAN      &lt 5 BACKSPACE  &lt 3 ENTER                                  &kp RCTRL
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         MOUSE {
