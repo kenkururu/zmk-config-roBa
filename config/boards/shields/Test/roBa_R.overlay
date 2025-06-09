@@ -96,6 +96,19 @@ arrows {
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
+change {
+            layers = <7>;
+            bindings =
+                <&kt LEFT_ALT>,
+                <&kp LEFT_ARROW>,
+                <&kp UP_ARROW>,
+                <&none>;
+
+            /*   optional: ball action configuration  */
+            tick = <10>;
+            // wait-ms = <5>;
+            // tap-ms = <5>;
+        };
     };
 };
 
