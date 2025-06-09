@@ -101,7 +101,7 @@ change {
             bindings =
                 <&kp TAB>,
                 <&kp LEFT_ARROW>,
-                <&kt LEFT_ALT>,
+                <&kp LEFT_ALT_TAB>,
                 <&none>;
 
             /*   optional: ball action configuration  */
