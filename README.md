@@ -12,7 +12,7 @@ layer3-base2 sensor:
 layer4-number sensor:
 layer5-func sensor:
 layer6-arrow sensor:RLarrow
-layer7-UNIQ sensor:
+layer7-UNIQ sensor:RLarrow
 layer8-scroll sensor:scroll
 layer9-MOUSE-SLOW sensor:snipe
 
