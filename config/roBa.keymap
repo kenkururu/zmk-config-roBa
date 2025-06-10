@@ -60,11 +60,6 @@
             bindings = <&mo 9>;
             key-positions = <33 32>;
         };
-
-        tog-num {
-            bindings = <&tog 4>;
-            key-positions = <20 21>;
-        };
     };
 
     macros {
