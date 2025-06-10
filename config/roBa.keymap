@@ -51,11 +51,6 @@
     combos {
         compatible = "zmk,combos";
 
-        mo-l6 {
-            bindings = <&mo 6>;
-            key-positions = <30 31>;
-        };
-
         tog-l2 {
             bindings = <&tog 2>;
             key-positions = <18 19>;
