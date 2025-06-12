@@ -128,10 +128,10 @@
 
         input2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                    &kp RA(ENTER)  &to_layer_0 F  &to_layer_0 COMMA  &to_layer_0 Q  &to_layer_0 P
-&trans  &trans  &trans  &trans  &trans  &trans      &to_layer_0 LEFT_WIN  &to_layer_0 G  &to_layer_0 J  &to_layer_0 D      &to_layer_0 L  &to_layer_0 PERIOD
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT        &to_layer_0 B  &to_layer_0 C  &to_layer_0 V      &to_layer_0 X  &to_layer_0 Z
-&trans  &trans  &trans  &trans  &trans  &trans      &to_layer_0 JP_AT             &none                                                           &mt RCTRL DEL
+&trans  &trans  &trans  &trans  &trans                              &kp RA(ENTER)  &kp F          &kp COMMA      &kp Q  &to_layer_0 P
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN    &to_layer_0 G  &to_layer_0 J  &to_layer_0 D  &kp L  &kp PERIOD
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT  &to_layer_0 B  &kp C          &kp V          &kp X  &kp Z
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_AT       &none                                               &mt RCTRL DEL
             >;
         };
 
