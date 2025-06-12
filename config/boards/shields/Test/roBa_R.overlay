@@ -6,7 +6,7 @@
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
-        require-prior-idle-ms = <5>;
+        require-prior-idle-ms = <10>;
         excluded-positions = <
             18 // 
             19 // 
@@ -84,19 +84,6 @@
        scroll-layers = <8>;
        snipe-layers = <9>;
 arrows {
-            layers = <6>;
-            bindings =
-                <&kp RIGHT_ARROW>,
-                <&kp LEFT_ARROW>,
-                <&none>,
-                <&none>;
-
-            /*   optional: ball action configuration  */
-            tick = <10>;
-            // wait-ms = <5>;
-            // tap-ms = <5>;
-        };
-change {
             layers = <7>;
             bindings =
                 <&kp RIGHT_ARROW>,
