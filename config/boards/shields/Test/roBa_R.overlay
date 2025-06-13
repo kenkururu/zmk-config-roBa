@@ -8,9 +8,11 @@
         #input-processor-cells = <2>;
         require-prior-idle-ms = <10>;
         excluded-positions = <
-            18 // 
-            19 // 
-            21 // 
+            18 //
+            19 //
+            21 //
+            31 //
+            33 //
         >;
     };
 
