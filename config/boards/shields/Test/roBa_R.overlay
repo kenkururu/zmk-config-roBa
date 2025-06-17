@@ -1,4 +1,4 @@
-#include "roBa.dtsi"
+o#include "roBa.dtsi"
 #include <dt-bindings/zmk/keys.h>
 
 #include <input/processors.dtsi>
@@ -6,7 +6,7 @@
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
-        require-prior-idle-ms = <900>;
+        require-prior-idle-ms = <1000>;
         excluded-positions = <
             18 //
             19 //
