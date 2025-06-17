@@ -1,4 +1,4 @@
-o#include "roBa.dtsi"
+#include "roBa.dtsi"
 #include <dt-bindings/zmk/keys.h>
 
 #include <input/processors.dtsi>
@@ -20,7 +20,7 @@ o#include "roBa.dtsi"
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
-        input-processors = <&zip_temp_layer 1 370>;
+        input-processors = <&zip_temp_layer 1 380>;
     };
 };
 
