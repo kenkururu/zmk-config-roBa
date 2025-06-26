@@ -18,11 +18,11 @@
         device = <&trackball>;
 
         input-processors = <&zip_temp_layer 1 380>;
-    };
         cpi-high {
             layers = <6>;
-            input-processors = <&zip_xy_scaler 5 1>;
+            input-processors = <&zip_xy_scaler 2 1>;
         };
+    };
 };
 
 &default_transform {
