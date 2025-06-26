@@ -191,7 +191,7 @@
             >;
         };
 
-        layer_10 {
+        mouse-fast {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                     &trans  &trans    &trans    &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &none
