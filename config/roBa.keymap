@@ -111,8 +111,8 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                     &trans  &trans    &trans    &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &mo 8
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &none
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &none     &none     &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &none                              &none
             >;
         };
@@ -120,7 +120,7 @@
         mouse-to {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &mo 8
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &none
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &none
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
