@@ -45,3 +45,5 @@ jis:roba.keymap
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
+
+#7line   &mkp_input_listener { input-processors = <&zip_temp_layer 1 380>; };
