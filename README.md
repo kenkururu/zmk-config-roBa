@@ -15,7 +15,7 @@ layer6-arrow sensor:
 layer7-UNIQ sensor:RL-arrow
 layer8-scroll sensor:scroll
 layer9-MOUSE-SLOW sensor:snipe
-layer10-MOUSE-Fast sensor:2*
+layer10-MOUSE-Fast sensor:snipe-2*
 
 #seting
 jis:roba.keymap
@@ -45,5 +45,3 @@ jis:roba.keymap
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
-
-#7line   &mkp_input_listener { input-processors = <&zip_temp_layer 1 380>; };
