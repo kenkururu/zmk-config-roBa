@@ -151,8 +151,6 @@
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp JP_EISU  &kp F10      &kp F1  &kp F2  &kp F3  &kp RCTRL
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans       &kp JP_KANA                          &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         arrow {
