@@ -18,7 +18,7 @@ layer9-MOUSE-SLOW sensor:snipe
 layer10-MOUSE-Fast sensor:snipe-2*
 
 #seting
-jis:roba.keymap
+#jis:roba.keymap
 // OS設定を日本語キーボードのまま使用するための変換定義
 
 #define JP_DQUOTE       AT                // "
@@ -45,3 +45,6 @@ jis:roba.keymap
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
+
+#seting
+#input/processor:roba.keymap
