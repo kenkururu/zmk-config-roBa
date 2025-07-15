@@ -100,10 +100,10 @@ arrows {
 ud-arrows {
             layers = <6>;
             bindings =
-                <&kp RIGHT_ARROW>,
-                <&kp LEFT_ARROW>,
                 <&none>,
-                <&none>;
+                <&none>,
+                <&kp UP_ARROW>,
+                <&kp DOWN_ARROW>;
 
             /*   optional: ball action configuration  */
             tick = <10>;
