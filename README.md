@@ -10,8 +10,8 @@ layer1-mouse sensor:aml
 layer2-toggle mouse sensor:mouse
 layer3-base2 sensor:none
 layer4-number sensor:none
-layer5-func sensor:
-layer6-arrow sensor:
+layer5-func sensor:none
+layer6-arrow sensor:UD-arrow
 layer7-UNIQ sensor:RL-arrow
 layer8-scroll sensor:scroll
 layer9-MOUSE-SLOW sensor:snipe
