@@ -60,6 +60,11 @@
             bindings = <&mo 9>;
             key-positions = <33 32>;
         };
+
+        UDarrow {
+            bindings = <&mo 6>;
+            key-positions = <30 31>;
+        };
     };
 
     macros {
