@@ -1,4 +1,4 @@
-name: roBa
+name: c642
 build:
   settings:
     board_root: config
