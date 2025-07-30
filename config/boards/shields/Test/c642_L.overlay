@@ -1,4 +1,4 @@
-#include "roBa.dtsi"
+#include "c642.dtsi"
 
 &kscan0 {
         col-gpios
