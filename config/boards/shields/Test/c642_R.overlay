@@ -1,4 +1,4 @@
-#include "roBa.dtsi"
+#include "c642.dtsi"
 #include <dt-bindings/zmk/keys.h>
 
 #include <input/processors.dtsi>
