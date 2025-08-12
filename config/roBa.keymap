@@ -52,11 +52,11 @@
         compatible = "zmk,layer-listeners";
 
         release_alt {
-            layers = <2>;
+            layers = <11>;
             bindings = <&kt_on LEFT_ALT &kt_off LEFT_ALT>;
         };
 
-        release_ctrl {
+        //release_ctrl {
             layers = <3>;
             bindings = <&kt_on LCTRL &kt_off LCTRL>;
         };
