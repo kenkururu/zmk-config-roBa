@@ -266,7 +266,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                           &trans   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans   &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp TAB      &trans   &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LS(TAB)  &kp TAB                          &trans
             >;
         };
