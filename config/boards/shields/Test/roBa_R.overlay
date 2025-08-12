@@ -93,7 +93,7 @@ arrows {
                 <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <10>;
+            tick = <15>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -113,8 +113,8 @@ ud-arrows {
 layer-move {
             layers = <11>;
             bindings =
-                <&none>,
-                <&none>,
+                <&to_kp 12 TAB>,
+                <&to_kp 12 TAB>,
                 <&to_kp 12 TAB>,
                 <&to_kp 12 TAB>;
 
@@ -126,8 +126,8 @@ layer-move {
 alt-tab {
             layers = <12>;
             bindings =
-                <&none>,
-                <&none>,
+                <&kp TAB>,
+                <&kp LS(TAB)>,
                 <&kp LS(TAB)>,
                 <&kp TAB>;
 
