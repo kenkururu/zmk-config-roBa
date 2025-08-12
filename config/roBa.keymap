@@ -61,7 +61,7 @@
         compatible = "zmk,combos";
 
         tog-l2 {
-            bindings = <&mo_to_0 11>;
+            bindings = <&to_kp 12 TAB>;
             key-positions = <18 19>;
         };
 
