@@ -93,7 +93,7 @@ arrows {
                 <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <15>;
+            tick = <12>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
