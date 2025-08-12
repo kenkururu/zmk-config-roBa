@@ -88,7 +88,8 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
-       to_kp: to_kp {
+
+        to_kp: to_kp {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
             bindings = <&macro_param_1to1 &to MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>;
@@ -101,7 +102,6 @@
             tap-ms = <0>;
             #binding-cells = <1>;
             bindings =
-
                 <&macro_press>,
                 <&macro_param_1to1 &mo MACRO_PLACEHOLDER>,
                 <&macro_tap>,
@@ -116,29 +116,30 @@
     };
 
     behaviors {
-            kt_on: key_toggle_on_only {
-                compatible = "zmk,behavior-key-toggle";
-                #binding-cells = <1>;
-                display-name = "Key Toggle On";
-                toggle-mode = "on";
-            };
+        kt_on: key_toggle_on_only {
+            compatible = "zmk,behavior-key-toggle";
+            #binding-cells = <1>;
+            display-name = "Key Toggle On";
+            toggle-mode = "on";
+        };
 
-            kt_off: key_toggle_off_only {
-                compatible = "zmk,behavior-key-toggle";
-                #binding-cells = <1>;
-                display-name = "Key Toggle Off";
-                toggle-mode = "off";
-            };
-          lt_to_0: lt_to_0 {
-                compatible = "zmk,behavior-hold-tap";
-                label = "LT_to_0";
-                bindings = <&mo_to_0>, <&kp>;
+        kt_off: key_toggle_off_only {
+            compatible = "zmk,behavior-key-toggle";
+            #binding-cells = <1>;
+            display-name = "Key Toggle Off";
+            toggle-mode = "off";
+        };
 
-                #binding-cells = <2>;
-                tapping-term-ms = <200>;
-                quick-tap-ms = <200>;
-                flavor = "balanced";
-            };
+        lt_to_0: lt_to_0 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_to_0";
+            bindings = <&mo_to_0>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            flavor = "balanced";
+        };
 
         tog_on: toggle_layer_on_only {
             compatible = "zmk,behavior-toggle-layer";
@@ -153,7 +154,6 @@
             display-name = "Toggle Layer Off";
             toggle-mode = "off";
         };
-
     };
 
     keymap {
@@ -161,10 +161,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp LA(TAB)                                                      &kp T        &kp R  &kp U  &kp S                 &kp W
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp LEFT_WIN     &kp K        &kp O  &kp A  &lt 10 I              &lt 8 E
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &lt 6 H          &lt 4 SPACE  &kp N  &kp M  &mt LEFT_SHIFT MINUS  &lt 7 Y
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 INT_HENKAN  &lt 6 SPACE  &lt_to_layer_0 5 INT_MUHENKAN      &lt 5 BACKSPACE  &lt 3 ENTER                                      &mt RCTRL DEL
+&kp Q             &kp W         &kp E         &kp R  &kp LA(TAB)                                      &kp T        &kp R  &kp U  &kp S                 &kp W
+&kp A             &kp S         &kp D         &kp F  &kp G        &kp LS(LG(S))      &kp LEFT_WIN     &kp K        &kp O  &kp A  &lt 10 I              &lt 8 E
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B        &kp COLON          &lt 6 H          &lt 4 SPACE  &kp N  &kp M  &mt LEFT_SHIFT MINUS  &lt 7 Y
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &none  &lt 6 SPACE  &none              &lt 5 BACKSPACE  &lt 3 ENTER                                      &mt RCTRL DEL
             >;
         };
 
