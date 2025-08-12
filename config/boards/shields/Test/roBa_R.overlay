@@ -113,10 +113,10 @@ ud-arrows {
 layer-move {
             layers = <11>;
             bindings =
-                <&to_kp 12 TAB>,
-                <&to_kp 12 TAB>,
                 <&none>,
-                <&none>;
+                <&none>,
+                <&to_kp 12 TAB>,
+                <&to_kp 12 TAB>;
 
             /*   optional: ball action configuration  */
             tick = <10>;
@@ -126,13 +126,13 @@ layer-move {
 alt-tab {
             layers = <12>;
             bindings =
-                <&kp TAB>,
-                <&kp LS(TAB)>,
                 <&none>,
-                <&none>;
+                <&none>,
+                <&kp LS(TAB)>,
+                <&kp TAB>;
 
             /*   optional: ball action configuration  */
-            tick = <10>;
+            tick = <20>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
