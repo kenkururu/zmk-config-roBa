@@ -55,14 +55,13 @@
             layers = <11>;
             bindings = <&kt_on LEFT_ALT &kt_off LEFT_ALT>;
         };
-
     };
 
     combos {
         compatible = "zmk,combos";
 
         tog-l2 {
-            bindings = <&tog 2>;
+            bindings = <&mo_to_0 11>;
             key-positions = <18 19>;
         };
 
@@ -256,10 +255,10 @@
 
         alt+tab {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans       &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans       &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LS(TAB)  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp TAB                              &trans
             >;
         };
     };
