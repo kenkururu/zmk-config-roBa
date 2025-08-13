@@ -106,6 +106,8 @@ alt-tab {
             // tap-ms = <5>;
         };
     };
+};
+
 / {
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
@@ -133,7 +135,5 @@ alt-tab {
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-
     };
-  };
 };
