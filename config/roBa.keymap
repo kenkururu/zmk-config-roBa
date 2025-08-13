@@ -201,19 +201,19 @@
 
         func {
             bindings = <
-&trans          &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                            &kp F12      &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans       &kp F11      &kp F4  &kp F5  &kp F6  &kp LEFT_ALT
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp JP_EISU  &kp F10      &kp F1  &kp F2  &kp F3  &kp RCTRL
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans       &kp JP_KANA                          &trans
+&trans  &trans  &trans  &trans  &trans                           &kp F12      &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT
+&trans  &trans  &trans  &trans  &trans  &trans      &trans       &kp F11      &kp F4  &kp F5  &kp F6  &kp LEFT_ALT
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_EISU  &kp F10      &kp F1  &kp F2  &kp F3  &kp RCTRL
+&trans  &trans  &trans  &trans  &trans  &trans      &trans       &kp JP_KANA                          &trans
             >;
         };
 
         arrow {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                &kp SEMI       &kp JP_QUOTE      &kp UP_ARROW          &kp JP_DQUOTE    &kp PSCRN
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp HOME     &kp JP_COLON   &kp LEFT_ARROW    &mt RCTRL DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_WIN
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &none        &kp END        &kp LS(NUMBER_1)  &kp LS(SLASH)         &kp JP_YEN       &kp JP_DOLLAR
-&trans                      &trans           &trans           &trans           &trans        &trans                       &kp PAGE_UP  &kp PAGE_DOWN                                                           &kp JP_UNDERSCORE
+&trans  &trans  &trans  &trans  &trans                           &kp SEMI       &kp JP_QUOTE      &kp UP_ARROW          &kp JP_DQUOTE    &kp PSCRN
+&trans  &trans  &trans  &trans  &trans  &trans      &kp HOME     &kp JP_COLON   &kp LEFT_ARROW    &mt RCTRL DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_WIN
+&trans  &trans  &trans  &trans  &trans  &trans      &none        &kp END        &kp LS(NUMBER_1)  &kp LS(SLASH)         &kp JP_YEN       &kp JP_DOLLAR
+&trans  &trans  &trans  &trans  &trans  &trans      &kp PAGE_UP  &kp PAGE_DOWN                                                           &kp JP_UNDERSCORE
             >;
         };
 
