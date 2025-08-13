@@ -1,7 +1,21 @@
 #include "roBa.dtsi"
 #include <dt-bindings/zmk/keys.h>
-
 #include <input/processors.dtsi>
+
+&default_transform {
+    col-offset = <6>;
+};
+
+&kscan0 {
+        col-gpios
+            = <&xiao_d 10 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 9 GPIO_ACTIVE_HIGH> 
+            , <&xiao_d 8 GPIO_ACTIVE_HIGH> 
+            , <&xiao_d 7 GPIO_ACTIVE_HIGH> 
+            , <&gpio0 10 GPIO_ACTIVE_HIGH>
+            ;
+};
+
 / {
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
@@ -23,20 +37,6 @@
             input-processors = <&zip_xy_scaler 2 1>;
         };
     };
-};
-
-&default_transform {
-    col-offset = <6>;
-};
-
-&kscan0 {
-        col-gpios
-            = <&xiao_d 10 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 9 GPIO_ACTIVE_HIGH> 
-            , <&xiao_d 8 GPIO_ACTIVE_HIGH> 
-            , <&xiao_d 7 GPIO_ACTIVE_HIGH> 
-            , <&gpio0 10 GPIO_ACTIVE_HIGH>
-            ;
 };
 
 / {
