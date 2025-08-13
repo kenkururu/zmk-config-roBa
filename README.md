@@ -7,7 +7,7 @@ RC(34) RC(35) RC(36) RC(37) RC(38) RC(39)     RC(40) RC(41)                     
 ♯layer
 layer0-base sensor:none
 layer1-mouse sensor:aml
-layer2-toggle mouse sensor:mouse
+//layer2-toggle mouse sensor:mouse
 layer3-base2 sensor:none
 layer4-number sensor:none
 layer5-func sensor:none
@@ -16,6 +16,8 @@ layer7-UNIQ sensor:RL-arrow
 layer8-scroll sensor:scroll
 layer9-MOUSE-SLOW sensor:snipe
 layer10-MOUSE-Fast sensor:snipe-2*
+layer11-alt+tab sensor:lt12
+layer12-layer_12 sensor:tab
 
 #seting
 #jis:roba.keymap
@@ -48,3 +50,4 @@ layer10-MOUSE-Fast sensor:snipe-2*
 
 #seting
 #input/processor:roba.keymap
+
