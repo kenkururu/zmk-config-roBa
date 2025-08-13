@@ -16,37 +16,6 @@
             ;
 };
 
-/ {
-    /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
-        compatible = "zmk,input-processor-temp-layer";
-        #input-processor-cells = <2>;
-        require-prior-idle-ms = <380>;
-        excluded-positions = <
-            18 //
-            19 //
-        >;
-    };
-
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-
-        input-processors = <&zip_temp_layer 1 360>;
-        cpi-high {
-            layers = <10>;
-            input-processors = <&zip_xy_scaler 2 1>;
-        };
-    };
-};
-
-/ {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-
-    };
-};
-
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -136,5 +105,35 @@ alt-tab {
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
+    };
+/ {
+    /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
+        compatible = "zmk,input-processor-temp-layer";
+        #input-processor-cells = <2>;
+        require-prior-idle-ms = <380>;
+        excluded-positions = <
+            18 //
+            19 //
+        >;
+    };
+
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 1 360>;
+        cpi-high {
+            layers = <10>;
+            input-processors = <&zip_xy_scaler 2 1>;
+        };
+    };
 };
+
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+    };
+  };
 };
