@@ -192,16 +192,16 @@
 
         NUM {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                               &kp JP_EQUAL  &kp N7        &kp N8        &kp N9        &kp MINUS
-&trans  &trans        &trans        &trans        &trans  &trans      &none            &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp JP_PLUS
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &kp JP_ASTERISK  &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
-&trans  &trans        &trans        &trans        &trans  &trans      &trans           &none                                                   &kp PERIOD
+&trans  &trans  &trans  &trans  &trans                               &kp JP_EQUAL  &kp N7        &kp N8        &kp N9        &kp MINUS
+&trans  &trans  &trans  &trans  &trans  &trans      &none            &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp JP_PLUS
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_ASTERISK  &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
+&trans  &trans  &trans  &trans  &trans  &trans      &trans           &none                                                   &kp PERIOD
             >;
         };
 
         func {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                            &kp F12      &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT
+&trans          &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                            &kp F12      &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans       &kp F11      &kp F4  &kp F5  &kp F6  &kp LEFT_ALT
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp JP_EISU  &kp F10      &kp F1  &kp F2  &kp F3  &kp RCTRL
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans       &kp JP_KANA                          &trans
