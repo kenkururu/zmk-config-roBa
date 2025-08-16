@@ -5,8 +5,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // #define MOUSE 1
-
 // OS設定を日本語キーボードのまま使用するための変換定義
+
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -148,10 +148,10 @@
 
         default_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                               &kp T        &kp R  &kp U     &kp S                 &kp W
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN     &kp K        &kp O  &lt 11 A  &lt 10 I              &lt 8 E
-&trans  &trans  &trans  &trans  &trans  &trans      &lt 6 H          &lt 4 SPACE  &kp N  &kp M     &mt LEFT_SHIFT MINUS  &lt 7 Y
-&trans  &trans  &trans  &trans  &trans  &none       &lt 5 BACKSPACE  &lt 3 ENTER                                         &mt RCTRL DEL
+&trans  &trans  &trans  &trans  &trans                               &kp T        &kp R  &kp U          &kp S                 &kp W
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN     &kp K        &kp O  &lt_to_0 11 A  &lt 10 I              &lt 8 E
+&trans  &trans  &trans  &trans  &trans  &trans      &lt 6 H          &lt 4 SPACE  &kp N  &kp M          &mt LEFT_SHIFT MINUS  &lt 7 Y
+&trans  &trans  &trans  &trans  &trans  &none       &lt 5 BACKSPACE  &lt 3 ENTER                                              &mt RCTRL DEL
             >;
         };
 
