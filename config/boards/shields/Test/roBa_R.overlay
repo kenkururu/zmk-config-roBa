@@ -53,6 +53,7 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
        scroll-layers = <8>;
        snipe-layers = <9>;
+
 arrows {
             layers = <7>;
             bindings =
@@ -66,6 +67,7 @@ arrows {
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
+
 ud-arrows {
             layers = <6>;
             bindings =
@@ -79,6 +81,7 @@ ud-arrows {
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
+
 layer-move {
             layers = <11>;
             bindings =
@@ -92,6 +95,7 @@ layer-move {
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
+
 alt-tab {
             layers = <12>;
             bindings =
@@ -122,7 +126,7 @@ alt-tab {
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 1 360>;
+        input-processors = <&zip_temp_layer 1 370>;
         cpi-high {
             layers = <10>;
             input-processors = <&zip_xy_scaler 2 1>;
