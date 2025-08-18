@@ -32,7 +32,7 @@
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
 
-&mkp_input_listener { input-processors = <&zip_temp_layer 1 380>; };
+&mkp_input_listener { input-processors = <&zip_temp_layer 1 360>; };
 
 &mt {
     flavor = "balanced";
