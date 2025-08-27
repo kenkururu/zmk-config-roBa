@@ -175,10 +175,10 @@
 
         input2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                              &mt LEFT_ALT RA(ENTER)  &kp F  &kp COMMA  &kp Q             &kp P
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN    &to_layer_0 G           &kp J  &kp D      &kp L             &kp PERIOD
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(SLASH)  &kp B                   &kp C  &kp V      &mt LEFT_SHIFT X  &mt LEFT_SHIFT Z
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(NUMBER_1)       &trans                                                      &mt RCTRL JP_AT
+&trans  &trans  &trans  &trans  &trans                                &mt LEFT_ALT RA(ENTER)  &kp F  &kp COMMA  &kp Q             &kp P
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN      &to_layer_0 G           &kp J  &kp D      &kp L             &kp PERIOD
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(SLASH)     &kp B                   &kp C  &kp V      &mt LEFT_SHIFT X  &mt LEFT_SHIFT Z
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(NUMBER_1)  &trans                                                      &mt RCTRL JP_AT
             >;
         };
 
@@ -202,10 +202,10 @@
 
         arrow {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                           &kp JP_COLON       &kp JP_QUOTE      &kp UP_ARROW          &kp JP_DQUOTE    &kp PSCRN
-&trans  &trans  &trans  &trans  &trans  &trans      &kp HOME     &kp SEMI   &kp LEFT_ARROW    &mt RCTRL DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_WIN
-&trans  &trans  &trans  &trans  &trans  &trans      &none        &kp END        &kp JP_YEN  &kp JP_DOLLAR         &kp JP_UNDERSCORE       &kp JP_DOLLAR
-&trans  &trans  &trans  &trans  &trans  &trans      &kp PAGE_UP  &kp PAGE_DOWN                                                           &kp JP_UNDERSCORE
+&trans  &trans  &trans  &trans  &trans                           &kp JP_COLON   &kp JP_QUOTE    &kp UP_ARROW          &kp JP_DQUOTE      &kp PSCRN
+&trans  &trans  &trans  &trans  &trans  &trans      &kp HOME     &kp SEMI       &kp LEFT_ARROW  &mt RCTRL DOWN_ARROW  &kp RIGHT_ARROW    &kp LEFT_WIN
+&trans  &trans  &trans  &trans  &trans  &trans      &none        &kp END        &kp JP_YEN      &kp JP_DOLLAR         &kp JP_UNDERSCORE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp PAGE_UP  &kp PAGE_DOWN                                                           &trans
             >;
         };
 
