@@ -177,8 +177,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                              &mt LEFT_ALT RA(ENTER)  &kp F  &kp COMMA  &kp Q             &kp P
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN    &to_layer_0 G           &kp J  &kp D      &kp L             &kp PERIOD
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT  &kp B                   &kp C  &kp V      &mt LEFT_SHIFT X  &mt LEFT_SHIFT Z
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_AT       &trans                                                      &mt RCTRL DEL
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(SLASH)  &kp B                   &kp C  &kp V      &mt LEFT_SHIFT X  &mt LEFT_SHIFT Z
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(NUMBER_1)       &trans                                                      &mt RCTRL JP_AT
             >;
         };
 
