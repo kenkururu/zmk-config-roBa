@@ -205,15 +205,15 @@
 &trans  &trans  &trans  &trans  &trans                           &kp JP_COLON   &kp JP_QUOTE    &kp UP_ARROW          &kp JP_DQUOTE      &kp PSCRN
 &trans  &trans  &trans  &trans  &trans  &trans      &kp HOME     &kp SEMI       &kp LEFT_ARROW  &mt RCTRL DOWN_ARROW  &kp RIGHT_ARROW    &kp LEFT_WIN
 &trans  &trans  &trans  &trans  &trans  &trans      &none        &kp END        &kp JP_YEN      &kp JP_DOLLAR         &kp JP_UNDERSCORE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp PAGE_UP  &kp PAGE_DOWN                                                           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp PAGE_UP  &kp PAGE_DOWN                                                           &kp PERCENT
             >;
         };
 
         UNIQ {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                             &trans          &kp JP_AMPERSAND  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_CARET
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LESS_THAN  &kp GT          &kp JP_LBRACE     &kp JP_RBRACE    &kp PERCENT      &kp HASH
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_LPAREN  &kp JP_RPAREN   &kp JP_PIPE       &kp TAB          &kp LEFT_ALT     &none
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LESS_THAN  &kp GT          &kp JP_LBRACE     &kp JP_RBRACE    &trans           &kp HASH
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_LPAREN  &kp JP_RPAREN   &kp JP_PIPE       &trans           &trans           &none
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LS(CLCK)   &kp SCROLLLOCK                                                      &trans
             >;
         };
