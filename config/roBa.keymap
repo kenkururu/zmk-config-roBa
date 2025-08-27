@@ -211,10 +211,10 @@
 
         UNIQ {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                             &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp JP_LBRACKET          &kp JP_RBRACKET     &kp JP_LBRACE    &kp JP_RBRACE           &kp JP_PIPE
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_CARET  &kp LESS_THAN   &kp GT       &kp JP_LPAREN           &kp JP_RPAREN           &none
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(CLCK)   &kp SCROLLLOCK                                                      &kp HASH
+&trans  &trans  &trans  &trans  &trans                            &trans           &trans           &trans         &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_LBRACE  &kp JP_RBRACE  &kp JP_PIPE
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_CARET  &kp LT           &kp GT           &kp JP_LPAREN  &kp JP_RPAREN  &none
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LS(CLCK)  &kp SCROLLLOCK                                                  &kp HASH
             >;
         };
 
