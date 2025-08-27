@@ -5,8 +5,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // #define MOUSE 1
-
 // OS設定を日本語キーボードのまま使用するための変換定義
+
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -175,28 +175,28 @@
 
         input2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                              &kp RA(ENTER)  &kp F  &kp COMMA  &kp Q  &kp P
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN    &to_layer_0 G  &kp J  &kp D      &kp L  &kp PERIOD
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT  &kp B          &kp C  &kp V      &kp X  &kp Z
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_AT       &none                                   &mt RCTRL DEL
+&trans  &trans  &trans  &trans  &trans                              &mt LEFT_ALT RA(ENTER)  &kp F  &kp COMMA  &kp Q             &kp P
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_WIN    &to_layer_0 G           &kp J  &kp D      &kp L             &kp PERIOD
+&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_SHIFT  &kp B                   &kp C  &kp V      &mt LEFT_SHIFT X  &mt LEFT_SHIFT Z
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_AT       &trans                                                      &mt RCTRL DEL
             >;
         };
 
         NUM {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                               &kp JP_EQUAL  &kp N7        &kp N8        &kp N9        &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans      &none            &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp JP_PLUS
+&trans  &trans  &trans  &trans  &trans  &trans      &trans           &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp JP_PLUS
 &trans  &trans  &trans  &trans  &trans  &trans      &kp JP_ASTERISK  &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
-&trans  &trans  &trans  &trans  &trans  &trans      &trans           &none                                                   &kp PERIOD
+&trans  &trans  &trans  &trans  &trans  &trans      &trans           &trans                                                  &kp PERIOD
             >;
         };
 
         func {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                           &kp F12      &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &kp F11      &kp F4  &kp F5  &kp F6  &kp LEFT_ALT
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_EISU  &kp F10      &kp F1  &kp F2  &kp F3  &kp RCTRL
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &kp JP_KANA                          &trans
+&trans  &trans  &trans  &trans  &trans                      &kp F12  &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp LEFT_ALT
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp RCTRL
+&trans  &trans  &trans  &trans  &trans  &trans      &none   &trans                           &trans
             >;
         };
 
@@ -213,7 +213,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                             &trans          &kp JP_AMPERSAND  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_CARET
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LESS_THAN  &kp GT          &kp JP_LBRACE     &kp JP_RBRACE    &kp PERCENT      &kp HASH
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_LPAREN  &kp JP_RPAREN   &kp JP_PIPE       &kp TAB          &kp LEFT_ALT     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_LPAREN  &kp JP_RPAREN   &kp JP_PIPE       &kp TAB          &kp LEFT_ALT     &none
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LS(CLCK)   &kp SCROLLLOCK                                                      &trans
             >;
         };
@@ -221,7 +221,7 @@
         SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                            &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans        &kp JP_KANA   &kp JP_EISU   &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans        &kp JP_KANA   &kp JP_EISU   &trans        &none
 &trans  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans                                                  &bt BT_CLR
             >;
@@ -230,7 +230,7 @@
         mouse-slow {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &none     &none     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
@@ -238,10 +238,10 @@
 
         mouse-fast {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &trans  &trans    &trans    &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &mkp MB1  &mkp MB2  &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none   &none     &none     &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                              &none
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
