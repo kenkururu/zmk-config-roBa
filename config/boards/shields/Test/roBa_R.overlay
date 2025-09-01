@@ -129,7 +129,7 @@ alt-tab {
         input-processors = <&zip_temp_layer 1 400>;
         cpi-auto {
             layers = <1>;
-            input-processors = <&zip_xy_scaler 3 2>;
+            input-processors = <&zip_xy_scaler 5 4>;
         };
         cpi-high {
             layers = <10>;
