@@ -59,7 +59,7 @@
 
         snipe {
             bindings = <&mo 9>;
-            key-positions = <33 32>;
+            key-positions = <32 33>;
         };
 
         UDarrow {
