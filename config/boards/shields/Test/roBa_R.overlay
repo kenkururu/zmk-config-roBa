@@ -120,6 +120,7 @@ alt-tab {
         excluded-positions = <
             18 //
             19 //
+            32 //
         >;
     };
 
