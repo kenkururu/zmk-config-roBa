@@ -127,7 +127,7 @@ alt-tab {
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors =
-　　　　　　　<&zip_temp_layer 1 400>,
+　　　　　　　<&zip_temp_layer 1 400>;
 　　　　　　　<&zip_xy_scaler 5 4>;
 
         cpi-high {
