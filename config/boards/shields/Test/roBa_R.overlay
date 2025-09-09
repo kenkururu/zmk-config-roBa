@@ -128,8 +128,8 @@ alt-tab {
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors =
-                <&zip_temp_layer 1 400>,
-                <&zip_xy_scaler 5 4>;
+                <&zip_temp_layer 1 420>,
+                <&zip_xy_scaler 3 2>;
 
         cpi-high {
             layers = <10>;
