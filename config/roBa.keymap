@@ -186,10 +186,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans                                &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans                                &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &mt_exit_AML_on_tap LEFT_SHIFT MINUS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                            &trans
+&trans  &trans  &trans  &trans  &trans                             &trans         &trans    &trans    &trans                                &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans         &mkp MB1  &mkp MB2  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans         &trans    &trans    &mt_exit_AML_on_tap LEFT_SHIFT MINUS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &to_layer_0 A  &to_layer_0 B                                                            &trans
             >;
         };
 
@@ -242,7 +242,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                            &trans           &trans           &trans         &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_LBRACE  &kp JP_RBRACE  &kp JP_PIPE
-&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_CARET  &kp JP_LPAREN           &kp JP_RPAREN           &kp LT  &kp GT  &none
+&trans  &trans  &trans  &trans  &trans  &trans      &kp JP_CARET  &kp JP_LPAREN    &kp JP_RPAREN    &kp LT         &kp GT         &none
 &trans  &trans  &trans  &trans  &trans  &trans      &kp LS(CLCK)  &kp SCROLLLOCK                                                  &kp HASH
             >;
         };
