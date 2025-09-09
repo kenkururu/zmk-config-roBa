@@ -189,7 +189,7 @@
 &trans  &trans  &trans  &trans  &trans                             &trans         &trans    &trans    &trans                                &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans         &mkp MB1  &mkp MB2  &trans                                &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans         &trans    &trans    &mt_exit_AML_on_tap LEFT_SHIFT MINUS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &to_layer_0 kp JP_KANA  &to_layer_0 JP_EISU                                                            &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &to_layer_0 JP_KANA  &to_layer_0 JP_EISU                                                            &trans
             >;
         };
 
