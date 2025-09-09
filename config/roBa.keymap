@@ -189,7 +189,7 @@
 &trans  &trans  &trans  &trans  &trans                             &trans         &trans    &trans    &trans                                &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans         &mkp MB1  &mkp MB2  &trans                                &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans         &trans    &trans    &mt_exit_AML_on_tap LEFT_SHIFT MINUS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &to_layer_0 A  &to_layer_0 B                                                            &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &to_layer_0 mkp MB1  &to_layer_0 mkp MB2                                                            &trans
             >;
         };
 
