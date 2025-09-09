@@ -76,6 +76,12 @@
             label = "TO_LAYER_0";
         };
 
+        to_layer_0mkp: to_layer_0mkp {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&to 0 &macro_param_1to1 &mkp MACRO_PLACEHOLDER>;
+            label = "TO_LAYER_0";
+        };
         to_kp: to_kp {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
