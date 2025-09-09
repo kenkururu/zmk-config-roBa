@@ -76,12 +76,6 @@
             label = "TO_LAYER_0";
         };
 
-        to_layer_0mkp: to_layer_0mkp {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &mkp MACRO_PLACEHOLDER>;
-            label = "TO_LAYER_0";
-        };
         to_kp: to_kp {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
@@ -195,7 +189,7 @@
 &trans  &trans  &trans  &trans  &trans                             &trans         &trans    &trans    &trans                                &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans         &mkp MB1  &mkp MB2  &trans                                &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans         &trans    &trans    &mt_exit_AML_on_tap LEFT_SHIFT MINUS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &to_layer_0 mkp MB1  &to_layer_0 mkp MB2                                                            &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &to_layer_0 kp JP_KANA  &to_layer_0 JP_EISU                                                            &trans
             >;
         };
 
