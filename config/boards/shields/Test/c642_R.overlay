@@ -1,29 +1,6 @@
 #include "c642.dtsi"
 #include <dt-bindings/zmk/keys.h>
-
 #include <input/processors.dtsi>
-/ {
-    /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
-        compatible = "zmk,input-processor-temp-layer";
-        #input-processor-cells = <2>;
-        require-prior-idle-ms = <400>;
-        excluded-positions = <
-            18 //
-            19 //
-        >;
-    };
-
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-
-        input-processors = <&zip_temp_layer 1 380>;
-        cpi-high {
-            layers = <10>;
-            input-processors = <&zip_xy_scaler 2 1>;
-        };
-    };
-};
 
 &default_transform {
     col-offset = <6>;
@@ -37,14 +14,6 @@
             , <&xiao_d 7 GPIO_ACTIVE_HIGH> 
             , <&gpio0 10 GPIO_ACTIVE_HIGH>
             ;
-};
-
-/ {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-
-    };
 };
 
 &pinctrl {
@@ -84,6 +53,7 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
        scroll-layers = <8>;
        snipe-layers = <9>;
+
 arrows {
             layers = <7>;
             bindings =
@@ -93,10 +63,11 @@ arrows {
                 <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <10>;
+            tick = <12>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
+
 ud-arrows {
             layers = <6>;
             bindings =
@@ -110,7 +81,66 @@ ud-arrows {
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
+
+layer-move {
+            layers = <11>;
+            bindings =
+                <&to_kp 12 TAB>,
+                <&to_kp 12 TAB>,
+                <&to_kp 12 TAB>,
+                <&to_kp 12 TAB>;
+
+            /*   optional: ball action configuration  */
+            tick = <10>;
+            // wait-ms = <5>;
+            // tap-ms = <5>;
+        };
+
+alt-tab {
+            layers = <12>;
+            bindings =
+                <&kp TAB>,
+                <&kp LS(TAB)>,
+                <&kp LS(TAB)>,
+                <&kp TAB>;
+
+            /*   optional: ball action configuration  */
+            tick = <25>;
+            // wait-ms = <5>;
+            // tap-ms = <5>;
+        };
     };
 };
 
+/ {
+    /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
+        compatible = "zmk,input-processor-temp-layer";
+        #input-processor-cells = <2>;
+        require-prior-idle-ms = <380>;
+        excluded-positions = <
+            18 //
+            19 //
+            32 //
+        >;
+    };
 
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+        input-processors =
+                <&zip_temp_layer 1 420>,
+                <&zip_xy_scaler 3 2>;
+
+        cpi-high {
+            layers = <10>;
+            input-processors = <&zip_xy_scaler 2 1>;
+        };
+    };
+};
+
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+    };
+};
