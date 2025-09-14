@@ -131,7 +131,7 @@ alt-tab {
         device = <&trackball>;
         input-processors =
                 <&zip_temp_layer 1 420>,
-                <&zip_xy_scaler 3 2>;
+                <&zip_xy_scaler 2 2>;
 
         cpi-high {
             layers = <10>;
