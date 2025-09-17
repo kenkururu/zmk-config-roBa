@@ -92,7 +92,7 @@ win-arrows {
 
             /*   optional: ball action configuration  */
             tick = <35>;
-            wait-ms = <100>;
+            wait-ms = <1000>;
             // tap-ms = <5>;
         };
 
