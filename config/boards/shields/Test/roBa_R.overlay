@@ -91,8 +91,8 @@ win-arrows {
                 <&kp RG(DOWN_ARROW)>;
 
             /*   optional: ball action configuration  */
-            tick = <35>;
-            wait-ms = <1000>;
+            tick = <50>;
+            // wait-ms = <5>;
             // tap-ms = <5>;
         };
 
