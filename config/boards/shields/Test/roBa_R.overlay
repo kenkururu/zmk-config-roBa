@@ -85,10 +85,10 @@ ud-arrows {
 win-arrows {
             layers = <2>;
             bindings =
-                <&none>,
-                <&none>,
-                <&kp UP_ARROW>,
-                <&kp DOWN_ARROW>;
+                <&kp RG(RIGHT_ARROW)>,
+                <&kp RG(LEFT_ARROW)>,
+                <&kp RG(UP_ARROW)>,
+                <&kp RG(DOWN_ARROW)>;
 
             /*   optional: ball action configuration  */
             tick = <10>;
