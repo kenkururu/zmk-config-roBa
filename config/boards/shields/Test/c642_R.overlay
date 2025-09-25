@@ -77,7 +77,21 @@ ud-arrows {
                 <&kp DOWN_ARROW>;
 
             /*   optional: ball action configuration  */
-            tick = <10>;
+            tick = <15>;
+            // wait-ms = <5>;
+            // tap-ms = <5>;
+        };
+
+win-arrows {
+            layers = <2>;
+            bindings =
+                <&kp RG(RIGHT_ARROW)>,
+                <&kp RG(LEFT_ARROW)>,
+                <&kp RG(UP_ARROW)>,
+                <&kp RG(D)>;
+
+            /*   optional: ball action configuration  */
+            tick = <55>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -105,7 +119,7 @@ alt-tab {
                 <&kp TAB>;
 
             /*   optional: ball action configuration  */
-            tick = <25>;
+            tick = <30>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -137,12 +151,5 @@ alt-tab {
             layers = <10>;
             input-processors = <&zip_xy_scaler 2 1>;
         };
-    };
-};
-
-/ {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
     };
 };
