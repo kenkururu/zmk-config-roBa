@@ -88,7 +88,7 @@ win-arrows {
                 <&kp RG(RIGHT_ARROW)>,
                 <&kp RG(LEFT_ARROW)>,
                 <&kp RG(UP_ARROW)>,
-                <&kp RG(DOWN_ARROW)>;
+                <&kp RG(D)>;
 
             /*   optional: ball action configuration  */
             tick = <55>;
