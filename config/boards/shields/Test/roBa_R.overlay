@@ -77,7 +77,7 @@ ud-arrows {
                 <&kp DOWN_ARROW>;
 
             /*   optional: ball action configuration  */
-            tick = <12>;
+            tick = <15>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
