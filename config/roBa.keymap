@@ -184,6 +184,15 @@
             flavor = "balanced";
             quick-tap-ms = <200>;
         };
+
+        /omit-if-no-ref/
+
+        sl_250: sl_250 {
+            compatible = "zmk,behavior-sticky-key";
+            bindings = <&mo>;
+            #binding-cells = <1>;
+            release-after-ms = <250>;
+        };
     };
 
     keymap {
