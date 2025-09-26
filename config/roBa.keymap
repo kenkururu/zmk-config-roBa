@@ -63,7 +63,7 @@
 
         UDarrow {
             bindings = <&mo 6>;
-            key-positions = <30 31>;
+            key-positions = <30 31 41 40>;
         };
     };
 
@@ -209,18 +209,18 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans                &trans    &trans    &trans                                &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                &mkp MB1  &mkp MB2  &lt_to_0 10 LC(V)                     &lt_to_0 8 LC(C)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                &trans    &trans    &mt_exit_AML_on_tap LEFT_SHIFT MINUS  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans                      &trans    &trans    &trans                                &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                      &mkp MB1  &mkp MB2  &lt_to_0 10 LC(V)                     &lt_to_0 8 LC(C)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                      &trans    &trans    &mt_exit_AML_on_tap LEFT_SHIFT MINUS  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &eager_tap_dance JP_KANA 2                                                            &trans
             >;
         };
 
         mouse-to {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans                &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans                      &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                      &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                      &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &eager_tap_dance JP_EISU 2                          &trans
             >;
         };
