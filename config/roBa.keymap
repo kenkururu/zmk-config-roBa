@@ -63,7 +63,7 @@
 
         UDarrow {
             bindings = <&mo 6>;
-            key-positions = <30 31 41 40>;
+            key-positions = <30 31>;
         };
     };
 
