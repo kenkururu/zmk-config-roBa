@@ -230,10 +230,10 @@
 
         mouse-to {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &eager_tap_dance JP_KANA 2  &eager_tap_dance JP_EISU 2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans                      &trans                      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans                      &trans                      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
