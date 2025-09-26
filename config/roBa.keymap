@@ -69,7 +69,7 @@
         ime {
             bindings = <&eager_tap_dance JP_KANA 2>;
             key-positions = <18 19>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         ime2 {
