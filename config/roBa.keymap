@@ -65,6 +65,18 @@
             bindings = <&mo 6>;
             key-positions = <30 31>;
         };
+
+        ime {
+            bindings = <&eager_tap_dance A 2>;
+            key-positions = <18 19>;
+            layers = <0 2>;
+        };
+
+        ime2 {
+            bindings = <&eager_tap_dance A 2>;
+            key-positions = <18 19>;
+            layers = <2>;
+        };
     };
 
     macros {
