@@ -123,6 +123,20 @@ alt-tab {
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
+
+change-ime {
+            layers = <13>;
+            bindings =
+                <&kp JP_EISU>,
+                <&kp JP_KANA>,
+                <&none>,
+                <&none>;
+
+            /*   optional: ball action configuration  */
+            tick = <5>;
+            // wait-ms = <5>;
+            // tap-ms = <5>;
+        };
     };
 };
 
