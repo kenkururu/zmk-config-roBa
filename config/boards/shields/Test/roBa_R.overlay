@@ -63,7 +63,7 @@ arrows {
                 <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <12>;
+            tick = <15>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -91,7 +91,7 @@ win-arrows {
                 <&kp RG(D)>;
 
             /*   optional: ball action configuration  */
-            tick = <55>;
+            tick = <50>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -105,7 +105,7 @@ layer-move {
                 <&to_kp 12 TAB>;
 
             /*   optional: ball action configuration  */
-            tick = <10>;
+            tick = <5>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -115,11 +115,11 @@ alt-tab {
             bindings =
                 <&kp TAB>,
                 <&kp LS(TAB)>,
-                <&kp LS(TAB)>,
-                <&kp TAB>;
+                <&none>,
+                <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <30>;
+            tick = <25>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
