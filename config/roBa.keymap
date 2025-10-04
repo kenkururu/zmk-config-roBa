@@ -67,15 +67,15 @@
         };
 
         ime {
-            bindings = <&eager_tap_dance JP_KANA 2>;
+            bindings = <&eager_tap_dance JP_KANA 13>;
             key-positions = <18 19>;
             layers = <0 1>;
         };
 
         ime2 {
-            bindings = <&eager_tap_dance JP_EISU 2>;
+            bindings = <&eager_tap_dance JP_EISU 13>;
             key-positions = <18 19>;
-            layers = <2>;
+            layers = <13>;
         };
     };
 
