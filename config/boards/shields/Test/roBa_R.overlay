@@ -168,7 +168,7 @@ change-ime {
             input-processors = <&zip_xy_scaler 9 4>;
         };
 
-cpi-none {
+        cpi-none {
             layers = <13>;
             input-processors = <&zip_xy_scaler 0 0>;
         };
