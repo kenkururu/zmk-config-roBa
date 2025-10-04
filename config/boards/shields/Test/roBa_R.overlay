@@ -165,7 +165,7 @@ change-ime {
 
         cpi-high {
             layers = <10>;
-            input-processors = <&zip_xy_scaler 2 1>;
+            input-processors = <&zip_xy_scaler 9 4>;
         };
     };
 };
