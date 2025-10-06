@@ -172,9 +172,9 @@
             flavor = "balanced";
         };
 
-        lt_to_02: lt_to_02 {
+        slt_to_0: slt_to_0 {
             compatible = "zmk,behavior-hold-tap";
-            label = "LT_to_02";
+            label = "sLT_to_0";
             bindings = <&sl_to_0>, <&kp>;
 
             #binding-cells = <2>;
