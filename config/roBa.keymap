@@ -172,17 +172,6 @@
             flavor = "balanced";
         };
 
-        slt_to_0: slt_to_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "sLT_to_0";
-            bindings = <&sl_to_0>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
-            flavor = "balanced";
-        };
-
         tog_on: toggle_layer_on_only {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
