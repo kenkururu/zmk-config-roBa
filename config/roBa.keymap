@@ -233,7 +233,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans                                &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mt_exit_AML_on_tap2 N0 LC(V)         &mt_exit_AML_on_tap2 N0 LC(C)
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &lt_to_0 13 LG(V)                     &lt_to_0 8 LG(C)
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &mt_exit_AML_on_tap LEFT_SHIFT MINUS  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                            &trans
             >;
