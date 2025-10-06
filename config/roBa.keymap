@@ -200,7 +200,7 @@
 
         mt_exit_AML_on_tap2: mt_exit_AML_on_tap2 {
             compatible = "zmk,behavior-hold-tap";
-            label = "MT_exit_AML_ON_TAP";
+            label = "MT_exit_AML_ON_TAP2";
             bindings = <&kp_exit_AML>, <&kp>;
 
             #binding-cells = <2>;
