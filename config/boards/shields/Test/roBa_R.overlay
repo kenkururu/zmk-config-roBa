@@ -103,8 +103,8 @@ layer-move {
             bindings =
                 <&to_kp 12 TAB>,
                 <&to_kp 12 TAB>,
-                <&to_kp 12 TAB>,
-                <&to_kp 12 TAB>;
+                <&none>,
+                <&none>;
 
             /*   optional: ball action configuration  */
             tick = <5>;
