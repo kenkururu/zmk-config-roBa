@@ -57,7 +57,7 @@
        snipe-layers = <9>;
 
 arrows {
-            layers = <7>;
+            layers = <2>;
             bindings =
                 <&kp RIGHT_ARROW>,
                 <&kp LEFT_ARROW>,
@@ -71,7 +71,7 @@ arrows {
         };
 
 win-arrows {
-            layers = <2>;
+            layers = <7>;
             bindings =
                 <&kp RG(RIGHT_ARROW)>,
                 <&kp RG(LEFT_ARROW)>,
