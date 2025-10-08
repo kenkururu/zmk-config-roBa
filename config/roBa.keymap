@@ -61,11 +61,6 @@
             key-positions = <32 33>;
         };
 
-        UDarrow {
-            bindings = <&mo 6>;
-            key-positions = <30 31>;
-        };
-
         ime {
             bindings = <&eager_tap_dance JP_KANA 13>;
             key-positions = <18 19>;
