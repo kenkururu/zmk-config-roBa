@@ -11,8 +11,8 @@ layer2-non sensor:win-arrow
 layer3-base2 sensor:none
 layer4-number sensor:none
 layer5-func sensor:none
-layer6-arrow sensor:UD-arrow
-layer7-UNIQ sensor:RL-arrow
+layer6-arrow sensor:none
+layer7-UNIQ sensor:arrow
 layer8-scroll sensor:scroll
 layer9-MOUSE-SLOW sensor:snipe
 #layer10-MOUSE-Fast sensor:snipe-2*
@@ -51,6 +51,7 @@ layer13-change_ime sensor:ime
 
 #seting
 #input/processor:roba.keymap
+
 
 
 
