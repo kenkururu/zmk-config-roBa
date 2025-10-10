@@ -60,18 +60,6 @@
             bindings = <&mo 9>;
             key-positions = <32 33>;
         };
-
-        ime {
-            bindings = <&eager_tap_dance JP_KANA 13>;
-            key-positions = <18 19>;
-            layers = <0 1>;
-        };
-
-        ime2 {
-            bindings = <&eager_tap_dance JP_EISU 13>;
-            key-positions = <18 19>;
-            layers = <13>;
-        };
     };
 
     macros {
