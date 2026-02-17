@@ -121,7 +121,7 @@ change-ime {
                 <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <5>;
+            tick = <15>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -147,7 +147,7 @@ change-ime {
         device = <&trackball>;
         input-processors =
                 <&zip_temp_layer 1 405>,
-                <&zip_xy_scaler 7 6>;
+                <&zip_xy_scaler 3 2>;
 
         cpi-high {
             layers = <10>;
