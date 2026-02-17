@@ -147,7 +147,7 @@ change-ime {
         device = <&trackball>;
         input-processors =
                 <&zip_temp_layer 1 400>,
-                <&zip_xy_scaler 5 3>;
+                <&zip_xy_scaler 8 5>;
 
         cpi-high {
             layers = <10>;
