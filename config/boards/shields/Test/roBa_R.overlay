@@ -53,9 +53,11 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+// スクロール、スニップレイヤー指定
        scroll-layers = <8>;
        snipe-layers = <9>;
 
+// trackball機能割り当て
 arrows {
             layers = <7>;
             bindings =
@@ -128,6 +130,7 @@ change-ime {
     };
 };
 
+// aml継続hotkey
 / {
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
@@ -141,7 +144,7 @@ change-ime {
             32 //
         >;
     };
-
+// aml時間、速度
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
@@ -149,6 +152,7 @@ change-ime {
                 <&zip_temp_layer 1 400>,
                 <&zip_xy_scaler 8 5>;
 
+// layer別cpi速度
         cpi-high {
             layers = <10>;
             input-processors = <&zip_xy_scaler 9 4>;
