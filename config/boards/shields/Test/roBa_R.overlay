@@ -1,6 +1,8 @@
 #include "roBa.dtsi"
 #include <dt-bindings/zmk/keys.h>
 #include <input/processors.dtsi>
+
+// trackballにて使用の為定義
 #define JP_KANA         LANGUAGE_1        // かな
 #define JP_EISU         LANGUAGE_2        // 英数
 
