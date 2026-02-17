@@ -1,16 +1,18 @@
 ♯keymap、マクロ変更時
 zmk-config-roBa/config/roBa.keymap
 
-♯setting変更時（aml継続hotkey、aml時間、速度、layer別cpi、trackball機能割り当て、スクロール、スニップレイヤー指定）
+♯setting変更時（aml継続hotkey、aml継続時間、速度、layer別cpi、trackball機能割り当て、スクロール、スニップレイヤー指定）
 zmk-config-roBa/config/boards/shields/Test/roBa_R.overlay
+♯32mm球の時は<&zip_xy_scaler 7 6>を使用
+♯24mm球へ変更に伴い<&zip_xy_scaler 8 5>へ変更
 
 ♯PMW3610設定変更（スクロール速度、スニップレイヤーcpi)
 zmk-config-roBa/config/boards/shields/Test/roBa_R.conf
 
 ♯zmkfirmwareのバージョン定義
 zmk-config-roBa/config/west.yml
-revision: mainを
-revision: v0.3-branchへ変更（2026/2)
+♯revision: mainが通常だが
+♯revision: v0.3-branchへ変更（2026/2アップデートに伴い)
 
 ♯keymap-num
 RC(0)  RC(1)  RC(2)  RC(3)  RC(4)                     RC(5) RC(6)  RC(7)  RC(8)  RC(9)
@@ -61,5 +63,6 @@ layer13-change_ime sensor:ime
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
+
 
 
