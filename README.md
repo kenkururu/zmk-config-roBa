@@ -1,8 +1,11 @@
-♯keymap
+♯keymap、マクロ変更時
 zmk-config-roBa/config/roBa.keymap
 
-♯setting
+♯setting変更時（aml継続hotkey、aml時間、速度、layer別cpi、trackball機能割り当て、スクロール、スニップレイヤー指定）
 zmk-config-roBa/config/boards/shields/Test/roBa_R.overlay
+
+♯PMW3610設定変更（スクロール速度、スニップレイヤーcpi)
+zmk-config-roBa/config/boards/shields/Test/roBa_R.conf
 
 ♯keymap-num
 RC(0)  RC(1)  RC(2)  RC(3)  RC(4)                     RC(5) RC(6)  RC(7)  RC(8)  RC(9)
@@ -10,7 +13,7 @@ RC(10) RC(11) RC(12) RC(13) RC(14) RC(15)     RC(16) RC(17) RC(18) RC(19) RC(20)
 RC(22) RC(23) RC(24) RC(25) RC(26) RC(27)     RC(28) RC(29) RC(30) RC(31) RC(32) RC(33)
 RC(34) RC(35) RC(36) RC(37) RC(38) RC(39)     RC(40) RC(41)                      RC(42)  
 
-♯layer
+♯layer-role
 layer0-base sensor:none
 layer1-mouse sensor:aml
 layer2-non sensor:win-arrow
@@ -26,7 +29,6 @@ layer11-move_layer sensor:lt12
 layer12-alt+tab sensor:tab
 layer13-change_ime sensor:ime
 
-#seting
 #jis:roba.keymap
 // OS設定を日本語キーボードのまま使用するための変換定義
 
