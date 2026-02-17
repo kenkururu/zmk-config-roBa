@@ -31,6 +31,7 @@
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR            // $
 
+// クリックでtemp_layer延長
 &mkp_input_listener { input-processors = <&zip_temp_layer 1 380>; };
 
 &mt {
