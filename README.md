@@ -7,6 +7,11 @@ zmk-config-roBa/config/boards/shields/Test/roBa_R.overlay
 ♯PMW3610設定変更（スクロール速度、スニップレイヤーcpi)
 zmk-config-roBa/config/boards/shields/Test/roBa_R.conf
 
+♯zmkfirmwareのバージョン定義
+zmk-config-roBa/config/west.yml
+revision: mainを
+revision: v0.3-branchへ変更（2026/2)
+
 ♯keymap-num
 RC(0)  RC(1)  RC(2)  RC(3)  RC(4)                     RC(5) RC(6)  RC(7)  RC(8)  RC(9)
 RC(10) RC(11) RC(12) RC(13) RC(14) RC(15)     RC(16) RC(17) RC(18) RC(19) RC(20) RC(21)
@@ -56,4 +61,5 @@ layer13-change_ime sensor:ime
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
+
 
