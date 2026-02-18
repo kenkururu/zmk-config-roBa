@@ -54,6 +54,7 @@ layer13-change_ime sensor:ime
 #define JP_BACKQUOTE    LEFT_BRACE        // `
 #define JP_UNDERSCORE   LS(0x87)          // _
 #define JP_LBRACKET     RIGHT_BRACKET     // [
+
 #define JP_RBRACKET     BACKSLASH         // ]
 #define JP_LPAREN       ASTERISK          // (
 #define JP_RPAREN       LEFT_PARENTHESIS  // )
@@ -63,6 +64,7 @@ layer13-change_ime sensor:ime
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
+
 
 
 
