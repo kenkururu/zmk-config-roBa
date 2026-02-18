@@ -36,7 +36,7 @@ layer11-move_layer sensor:lt12
 layer12-alt+tab sensor:tab
 layer13-change_ime sensor:ime
 
-// OS設定を日本語キーボードのまま使用するための変換定義（階層毎に定義必要）
+♯OS設定を日本語キーボードのまま使用するための変換定義（階層毎に定義必要）
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -61,3 +61,4 @@ layer13-change_ime sensor:ime
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
+
