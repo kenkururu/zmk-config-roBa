@@ -36,9 +36,7 @@ layer11-move_layer sensor:lt12
 layer12-alt+tab sensor:tab
 layer13-change_ime sensor:ime
 
-#jis:roba.keymap
 // OS設定を日本語キーボードのまま使用するための変換定義（階層毎に定義必要）
-
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -53,9 +51,8 @@ layer13-change_ime sensor:ime
 #define JP_ASTERISK     DOUBLE_QUOTES     // *
 #define JP_BACKQUOTE    LEFT_BRACE        // `
 #define JP_UNDERSCORE   LS(0x87)          // _
-#define JP_LBRACKET     RIGHT_BRACKET     // [
-
 #define JP_RBRACKET     BACKSLASH         // ]
+#define JP_LBRACKET     RIGHT_BRACKET     // [
 #define JP_LPAREN       ASTERISK          // (
 #define JP_RPAREN       LEFT_PARENTHESIS  // )
 #define JP_LBRACE       RIGHT_BRACE       // {
@@ -64,7 +61,3 @@ layer13-change_ime sensor:ime
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
-
-
-
-
