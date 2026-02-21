@@ -151,7 +151,7 @@ change-ime {
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors =
-                <&zip_temp_layer 1 400>,
+                <&zip_temp_layer 1 390>,
                 <&zip_xy_scaler 8 5>;
 
 // layer別cpi速度
