@@ -35,8 +35,8 @@ jis:roba.keymap
 #define JP_ASTERISK     DOUBLE_QUOTES     // *
 #define JP_BACKQUOTE    LEFT_BRACE        // `
 #define JP_UNDERSCORE   LS(0x87)          // _
-#define JP_LBRACKET     RIGHT_BRACKET     // [
 #define JP_RBRACKET     BACKSLASH         // ]
+#define JP_LBRACKET     RIGHT_BRACKET     // [
 #define JP_LPAREN       ASTERISK          // (
 #define JP_RPAREN       LEFT_PARENTHESIS  // )
 #define JP_LBRACE       RIGHT_BRACE       // {
@@ -46,4 +46,7 @@ jis:roba.keymap
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
 
-#7line   &mkp_input_listener { input-processors = <&zip_temp_layer 1 380>; };
+// coropit用設定変更
+CONFIG_PMW3610_ORIENTATION_0=y
+#CONFIG_PMW3610_ORIENTATION_180=y
+
