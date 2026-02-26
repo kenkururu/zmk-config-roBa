@@ -1,3 +1,12 @@
+♯zmkfirmwareのバージョン定義
+zmk-config-roBa/config/west.yml
+♯revision: mainが通常だが
+♯revision: v0.3-branchへ変更（2026/2アップデートに伴い)
+
+// coropit用設定変更
+CONFIG_PMW3610_ORIENTATION_0=y
+#CONFIG_PMW3610_ORIENTATION_180=y
+
 ♯keymap-num
 RC(0)  RC(1)  RC(2)  RC(3)  RC(4)                     RC(5) RC(6)  RC(7)  RC(8)  RC(9)
 RC(10) RC(11) RC(12) RC(13) RC(14) RC(15)     RC(16) RC(17) RC(18) RC(19) RC(20) RC(21)
@@ -7,15 +16,18 @@ RC(34) RC(35) RC(36) RC(37) RC(38) RC(39)     RC(40) RC(41)                     
 ♯layer
 layer0-base sensor:none
 layer1-mouse sensor:aml
-layer2-toggle mouse sensor:mouse
+layer2-non sensor:win-arrow
 layer3-base2 sensor:none
 layer4-number sensor:none
-layer5-func sensor:
-layer6-arrow sensor:
-layer7-UNIQ sensor:RL-arrow
+layer5-func sensor:none
+layer6-arrow sensor:none
+layer7-UNIQ sensor:arrow
 layer8-scroll sensor:scroll
 layer9-MOUSE-SLOW sensor:snipe
-layer10-MOUSE-Fast sensor:2*
+#layer10-MOUSE-Fast sensor:snipe-2*
+layer11-move_layer sensor:lt12
+layer12-alt+tab sensor:tab
+layer13-change_ime sensor:ime
 
 #seting
 jis:roba.keymap
@@ -45,8 +57,3 @@ jis:roba.keymap
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 #define JP_DOLLAR       DOLLAR             // $
-
-// coropit用設定変更
-CONFIG_PMW3610_ORIENTATION_0=y
-#CONFIG_PMW3610_ORIENTATION_180=y
-
