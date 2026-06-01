@@ -88,20 +88,6 @@ win-arrows {
             // tap-ms = <5>;
         };
 
-win-shift {
-            layers = <4>;
-            bindings =
-                <&kp LC(LG(RIGHT))>,
-                <&kp &kp LC(LG(LEFT))>,
-                <&kp RG(tab)>,
-                <&none>;
-
-            /*   optional: ball action configuration  */
-            tick = <50>;
-            // wait-ms = <5>;
-            // tap-ms = <5>;
-        };
-
 layer-move {
             layers = <11>;
             bindings =
