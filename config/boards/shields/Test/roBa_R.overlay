@@ -92,7 +92,7 @@ win-shift {
             layers = <4>;
             bindings =
                 <&kp LC(LG(RIGHT))>,
-                <&kp &kp LC(LG(LEFT))>,
+                <&kp LC(LG(LEFT))>,
                 <&kp RG(tab)>,
                 <&none>;
 
