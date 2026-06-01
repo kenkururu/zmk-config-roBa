@@ -91,8 +91,8 @@ win-arrows {
 win-shift {
             layers = <4>;
             bindings =
-                <&kp LC(LG(RIGHT))>,
-                <&kp LC(LG(LEFT))>,
+                <&kp LC(LG(RIGHT_ARROW))>,
+                <&kp LC(LG(LEFT_ARROW))>,
                 <&kp RG(tab)>,
                 <&none>;
 
