@@ -94,7 +94,7 @@ win-shift {
                 <&kp LC(LG(RIGHT_ARROW))>,
                 <&kp LC(LG(LEFT_ARROW))>,
                 <&kp RG(TAB)>,
-                <&none>;
+                <&kp LC(LG(D))>;
 
             /*   optional: ball action configuration  */
             tick = <50>;
