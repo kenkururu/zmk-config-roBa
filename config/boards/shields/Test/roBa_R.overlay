@@ -93,7 +93,7 @@ win-shift {
             bindings =
                 <&kp LC(LG(RIGHT_ARROW))>,
                 <&kp LC(LG(LEFT_ARROW))>,
-                <&kp RG(tab)>,
+                <&kp RG(TAB)>,
                 <&none>;
 
             /*   optional: ball action configuration  */
