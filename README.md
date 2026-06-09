@@ -1,4 +1,4 @@
-♯keymap、マクロ変更時
+♯keymapもしくはマクロ変更時
 zmk-config-roBa/config/roBa.keymap
 
 ♯setting変更時（aml継続hotkey、aml継続時間、速度、layer別cpi、trackball機能割り当て、スクロール、スニップレイヤー指定）
@@ -13,6 +13,9 @@ zmk-config-roBa/config/boards/shields/Test/roBa_R.conf
 zmk-config-roBa/config/west.yml
 ♯revision: mainが通常だが
 ♯revision: v0.3-branchへ変更（2026/2アップデートに伴い)
+zmk-config-roBa/.github/workflows/build.yml
+♯yml@mainが通常だが
+♯yml@v0.3-branchへ変更（アップデートに伴い)
 
 ♯keymap-num
 RC(0)  RC(1)  RC(2)  RC(3)  RC(4)                     RC(5) RC(6)  RC(7)  RC(8)  RC(9)
@@ -25,7 +28,7 @@ layer0-base sensor:none
 layer1-mouse sensor:aml
 layer2-non sensor:win-arrow
 layer3-base2 sensor:none
-layer4-number sensor:none
+layer4-number sensor:win-shift
 layer5-func sensor:none
 layer6-arrow sensor:none
 layer7-UNIQ sensor:arrow
