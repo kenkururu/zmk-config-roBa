@@ -125,7 +125,7 @@ alt-tab {
                 <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <25>;
+            tick = <30>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -139,7 +139,7 @@ change-ime {
                 <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <15>;
+            tick = <30>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -151,7 +151,7 @@ change-ime {
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
-        require-prior-idle-ms = <380>;
+        require-prior-idle-ms = <390>;
         excluded-positions = <
             18 //
             19 //
@@ -165,7 +165,7 @@ change-ime {
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors =
-                <&zip_temp_layer 1 390>,
+                <&zip_temp_layer 1 395>,
                 <&zip_xy_scaler 7 6>;
 
 // layer別cpi速度
