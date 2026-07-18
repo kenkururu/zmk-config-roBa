@@ -111,7 +111,7 @@ layer-move {
                 <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <5>;
+            tick = <20>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
@@ -139,7 +139,7 @@ change-ime {
                 <&none>;
 
             /*   optional: ball action configuration  */
-            tick = <30>;
+            tick = <60>;
             // wait-ms = <5>;
             // tap-ms = <5>;
         };
