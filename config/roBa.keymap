@@ -203,7 +203,7 @@
 &kp HOME              &kp END       &kp EQUAL     &kp DOT       &kp NUMBER_0   &kp LA(F4)      &lt 5 BACKSPACE  &lt 3 ENTER                                                &mt RCTRL DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(HOME) LC(END)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
