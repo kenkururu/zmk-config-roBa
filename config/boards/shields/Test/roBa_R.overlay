@@ -133,8 +133,8 @@ alt-tab {
 change-ime {
             layers = <13>;
             bindings =
-                <&kp JP_EISU>,
-                <&kp JP_KANA>,
+                <&none>,
+                <&none>,
                 <&none>,
                 <&none>;
 
@@ -166,7 +166,7 @@ change-ime {
         device = <&trackball>;
         input-processors =
                 <&zip_temp_layer 1 395>,
-                <&zip_xy_scaler 7 6>;
+                <&zip_xy_scaler 8 5>;
 
 // layer別cpi速度
         cpi-high {
