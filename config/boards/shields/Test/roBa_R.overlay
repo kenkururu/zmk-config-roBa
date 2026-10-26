@@ -166,7 +166,7 @@ change-ime {
         device = <&trackball>;
         input-processors =
                 <&zip_temp_layer 1 395>,
-                <&zip_xy_scaler 8 5>;
+                <&zip_xy_scaler 3 2>;
 
 // layer別cpi速度
         cpi-high {
