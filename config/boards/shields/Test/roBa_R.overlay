@@ -153,9 +153,9 @@ change-ime {
         #input-processor-cells = <2>;
         require-prior-idle-ms = <390>;
         excluded-positions = <
-            18 //
+            8 //
             19 //
-            20 //
+            9 //
             21 //
             32 //
         >;
